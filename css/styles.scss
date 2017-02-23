@@ -1,0 +1,13 @@
+---
+# front matter ensures Jekyll can transform this file into CSS later
+---
+
+.wrapper {
+  max-width: calc(1000px - (30px * 2));
+}
+
+a {
+  &.page-link.active {
+    color: blue;
+  }
+}
