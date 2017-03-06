@@ -27,10 +27,6 @@
   url: "/forms/"
   side: left
 
-- title: Getting Started
-  url: "/getting-started/"
-  side: left
-
 - title: "Templates"
   url: "/design/"
   side: left
@@ -74,15 +70,6 @@
     url: "/design/no-header/"
   - title: "No Header but Image"
     url: "/design/no-header-but-image/"
-
-- title: Documentation
-  url: "/documentation/"
-  side: left
-  dropdown:
-  - title: "Changelog"
-    url: "/changelog/"
-  - title: "Roadmap"
-    url: "/roadmap/"
 
 - title: Blog
   url: "/blog/"
