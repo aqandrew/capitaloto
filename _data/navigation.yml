@@ -2,6 +2,31 @@
   url: "/"
   side: left
 
+- title: Providers & Staff
+  url: "/staff/"
+  side: left
+
+- title: Our Practice
+  url: "/about/"
+  side: left
+  dropdown:
+    - title: Locations
+      url: "/locations/"
+    - title: Services
+      url: "/services/"
+    - title: Accepted Insurance
+      url: "/insurance/"
+    - title: Careers
+      url: "/careers/"
+
+- title: Patient Portal
+  url: "/patient-portal/"
+  side: left
+
+- title: Patient Forms
+  url: "/forms/"
+  side: left
+
 - title: Getting Started
   url: "/getting-started/"
   side: left
