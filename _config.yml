@@ -17,7 +17,7 @@ slogan: 'Your Source for Otolaryngology'
 description: 'Capital Region Otolaryngology Head and Neck Group, LLP has been serving patients in and near the New York Capital District area for over 40 years.'
 
 # The credits show up in the includes/_footer.html – It would be nice of you to leave a link to Phlow or Feeling Responsive as a thank you :)
-credits: '<p>&copy; 2012-2017 Capital Region Otolaryngology Head and Neck Group, LLP. All Rights Reserved. <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> website by <a href="https://dawneraq.github.io/">Andrew Aquino</a> with theme based on <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a>. Photography by <a href="http://www.traceybuyce.com/">Tracey J. M. Buyce</a>.</p>'
+credits: '<p>&copy; 2012-2017 Capital Region Otolaryngology Head and Neck Group, LLP. All Rights Reserved.</p>'
 
 # Main author of the website
 # See > authors.yml
