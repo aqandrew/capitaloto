@@ -76,6 +76,5 @@ Click each marker on the map below for directions to one of our locations.
 
 Location | Hours | Phone | Fax
 --- | --- | --- | ---
-**Albany**<br/>6 Executive Park Drive<br/>Entrance C<br/>Albany, NY 12203 | TODO | [(518)482-9111](tel:5184829111) | [(518)482-6142](tel:5184826142)
-**Troy**<br/>2001 5th Avenue<br/>Troy, NY 12180 | TODO | [(518)274-4110](tel:5182744110) | [(518)272-5147](tel:5182725147)
-**Clifton Park**<br/>963 Route 146<br/>Clifton Park, NY 12065 | TODO | [(518)383-0065](tel:5183830065) | [(518)383-2239](tel:5183832239)
+{% for location in site.data.locations  %}**{{ location.name }}**<br/>{{ location.address }} | {{ location.hours }} | {{ location.phone }} | {{ location.fax }}
+{% endfor %}
