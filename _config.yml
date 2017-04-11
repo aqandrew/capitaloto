@@ -15,10 +15,10 @@ title_abbreviated: 'Capital Region Otolaryngology'
 slogan: 'Your Source for Otolaryngology'
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
-description: 'Capital Region Otolaryngology Head and Neck Group, LLP has been serving patients in and near the New York Capital District area for over 40 years.'
+description: 'Capital Region Otolaryngology Head and Neck Group, LLP has been serving patients in and near the New York Capital District area for over 50 years.'
 
 # The credits show up in the includes/_footer.html – It would be nice of you to leave a link to Phlow or Feeling Responsive as a thank you :)
-credits: '<p>&copy; 2012-2017 Capital Region Otolaryngology Head and Neck Group, LLP. All Rights Reserved.</p>'
+credits: '&copy; 2012-2017 Capital Region Otolaryngology Head and Neck Group, LLP. All Rights Reserved.'
 
 # Main author of the website
 # See > authors.yml
@@ -227,43 +227,3 @@ sass:
 # used in _includes/footer_scripts
 
 google_analytics_tracking_id: UA-60112281-1
-
-
-
-#   _                 _     _
-#  | |_ __ ___      _| | __| |_ ___
-#  | __/ _` \ \ /\ / / |/ /| __/ _ \
-#  | || (_| |\ V  V /|   < | || (_) |
-#   \__\__,_| \_/\_/ |_|\_(_)__\___/     More › https://www.tawk.to/knowledgebase/
-#
-#  tawk.to is a free live chat app that lets you monitor and chat
-#  with visitors on your website or from a free customizable page
-#
-#  To load the script add tawkto: true in front matter of each page
-#
-# used in _includes/footer_scripts
-
-# tawkto_embed_uri:
-
-
-#     ___              _     __           __
-#    /   |  __________(_)___/ /___  _____/ /_____  _____
-#   / /| | / ___/ ___/ / __  / __ \/ ___/ __/ __ \/ ___/
-#  / ___ |(__  ) /__/ / /_/ / /_/ / /__/ /_/ /_/ / /
-# /_/  |_/____/\___/_/\__,_/\____/\___/\__/\____/_/
-#
-#  Asciidoctor is a fast text processor and publishing toolchain for converting
-#  AsciiDoc content to HTML5, DocBook 5 (or 4.5) and other formats.
-#
-#  https://github.com/asciidoctor/jekyll-asciidoc
-#  https://github.com/asciidoctor
-#
-#
-
-asciidoctor-enabled: false
-asciidoctor:
-  description: testtewtetrue
-  attributes:
-    source-highlighter: coderay
-    coderay-css: style
-    icons: font
