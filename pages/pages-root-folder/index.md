@@ -32,14 +32,15 @@ widget3:
 # to use the main color or success, alert or secondary.
 # To change colors see sass/_01_settings_colors.scss
 #
-callforaction1:
-  url: /about#contact
-  text: Make an appointment
-  style: secondary
-callforaction2:
-  url: https://www.medentmobile.com/portal/index.php?practice_id=8HPZ85s4
-  text: Log in to your Patient Portal
-  style: primary
+actionbuttons:
+  - callforaction1:
+    url: /about#contact
+    text: Make an appointment
+    style: secondary
+  - callforaction2:
+    url: https://www.medentmobile.com/portal/index.php?practice_id=8HPZ85s4
+    text: Log in to your Patient Portal
+    style: primary
 
 permalink: /index.html
 #
