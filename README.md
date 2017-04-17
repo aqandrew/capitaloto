@@ -114,9 +114,9 @@ In the directory where this repository has been downloaded:
 $ bundle install
 ```
 
-[![Start Video](https://github.com/Phlow/feeling-responsive/blob/gh-pages/images/video-feeling-responsive-1280x720.jpg)](https://www.youtube.com/embed/3b5zCFSmVvU)
-
 ## About the Theme: *Feeling Responsive*
+
+[![Start Video](https://github.com/Phlow/feeling-responsive/blob/gh-pages/images/video-feeling-responsive-1280x720.jpg)](https://www.youtube.com/embed/3b5zCFSmVvU)
 
 Do you want to get to know *Feeling Responsive*? Then check it out first and have a look on [its home][feeling-responsive]!
 

@@ -12,10 +12,30 @@ format: frontpage
 
 {% comment %}
 *
+* First check, if there is a call for action-button
+*
+{% endcomment %}
+{% if page.callforaction1.url contains 'http' %}
+{% assign url = '' %}
+{% else %}
+{% capture url %}{{ site.url }}{{ site.baseurl }}{% endcapture %}
+{% endif %}
+{% if page.callforaction1 %}
+    <div class="row t30 b15">
+        <div class="small-12 text-center columns">
+            <a class="button large radius {{ page.callforaction1.style }}" href="{{ url }}{{ page.callforaction1.url }}"{% if page.callforaction1.url contains 'http' %} target="_blank" {% endif %}>{{ page.callforaction1.text }}</a>
+            <a class="button large radius {{ page.callforaction2.style }}" href="{{ url }}{{ page.callforaction2.url }}"{% if page.callforaction2.url contains 'http' %} target="_blank" {% endif %}>{{ page.callforaction2.text }}</a>
+        </div><!-- /.small-12.columns -->
+    </div><!-- /.row -->
+{% endif %}
+
+
+{% comment %}
+*
 * First check, if widget is empty or not by checking if there is a title
 *
 {% endcomment %}
-<div class="row t60">
+<div class="row">
 	{% if page.widget1.title %}
 		{% include _frontpage-widget.html widget=page.widget1 %}
 	{% endif %}
@@ -30,27 +50,6 @@ format: frontpage
 		{% include _frontpage-widget.html widget=page.widget3 %}
 	{% endif %}
 </div><!-- /.row -->
-
-
-
-{% comment %}
-*
-* First check, if there is a call for action-button
-*
-{% endcomment %}
-{% if page.callforaction.url contains 'http' %}
-{% assign url = '' %}
-{% else %}
-{% capture url %}{{ site.url }}{{ site.baseurl }}{% endcapture %}
-{% endif %}
-{% if page.callforaction %}
-    <div class="row t60 b60">
-        <div class="small-12 text-center columns">
-            <a class="button large radius {{ page.callforaction.style }}" href="{{ url }}{{ page.callforaction.url }}"{% if page.callforaction.url contains 'http' %} target="_blank" {% endif %}>{{ page.callforaction.text }}</a>
-        </div><!-- /.small-12.columns -->
-    </div><!-- /.row -->
-{% endif %}
-
 
 
 {% comment %}
