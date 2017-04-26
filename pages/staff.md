@@ -9,8 +9,12 @@ TODO This is the page where all of the doctors will be listed.
 
 ## Medical Providers
 
-TODO
+{% for provider in site.data.staff.medical_providers %}
+- {{ provider.name }}
+{% endfor %}
 
 ## Audiologists
 
-TODO
+{% for audiologist in site.data.staff.audiologists %}
+- {{ audiologist.name }}
+{% endfor %}

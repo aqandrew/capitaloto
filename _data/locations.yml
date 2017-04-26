@@ -1,17 +1,14 @@
 - name: Albany
   address: 6 Executive Park Drive<br/>Entrance C<br/>Albany, NY 12203
-  hours: TODO
   phone: (518)482-9111
   fax: (518)482-6142
 
 - name: Troy
   address: 2001 5th Avenue<br/>Troy, NY 12180
-  hours: TODO
   phone: (518)274-4110
   fax: (518)272-5147
 
 - name: Clifton Park
   address: 963 Route 146<br/>Clifton Park, NY 12065
-  hours: TODO
   phone: (518)383-0065
   fax: (518)383-2239

@@ -13,7 +13,7 @@ permalink: /locations/
 We have 3 offices dedicated to serving patients throughout and outside the Capital Region with the utmost care and convenience.
 Click each marker on the map below for directions to one of our locations.
 
-<div id="capitaloto-map"></div>
+<div id="capitaloto-map" class="b15"></div>
 <script>
   // http://stackoverflow.com/questions/27765446/directions-to-marker-with-google-maps-api
   // https://wrightshq.com/playground/placing-multiple-markers-on-a-google-map-using-api-3/
@@ -72,9 +72,11 @@ Click each marker on the map below for directions to one of our locations.
   src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAfIcDESp0aiadHZ5zoSJTox0TCHyudxmk&callback=initMap">
 </script>
 
+Location | Phone | Fax
+--- | --- | ---
+{% for location in site.data.locations  %}**{{ location.name }}**<br/>{{ location.address }} | [{{ location.phone }}](tel:{{ location.phone }}) | [{{ location.fax }}](tel:{{ location.fax }})
+{% endfor %}
+
 ### Hours
 
-Location | Hours | Phone | Fax
---- | --- | --- | ---
-{% for location in site.data.locations  %}**{{ location.name }}**<br/>{{ location.address }} | {{ location.hours }} | {{ location.phone }} | {{ location.fax }}
-{% endfor %}
+Each of our offices is open {{ site.hours }}. Depending on your physician, you may be able to schedule an appointment before or after normal hours.

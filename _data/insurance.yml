@@ -1,0 +1,27 @@
+- name: Aetna
+  diagnostic_deductible: true
+- name: Beech Street (administered by Multi Plan)
+- name: CDPHP
+  diagnostic_deductible: true
+- name: CIGNA
+  diagnostic_deductible: true
+- name: Blue Cross Blue Shield (including Empire, Excellus)
+  diagnostic_deductible: true
+- name: Fidelis
+- name: GHI
+- name: Hudson Health Plan (limited to certain providers)
+- name: Humana
+- name: Medicaid
+- name: Medicare
+- name: MVP
+  diagnostic_deductible: true
+- name: Nova
+- name: PHCS & Multi Plan
+- name: POMCO
+  diagnostic_deductible: true
+- name: Today's Options/American Progressive
+- name: Tricare
+- name: UnitedHealthcare
+  diagnostic_deductible: true
+- name: US Family Health Plan
+- name: Wellcare

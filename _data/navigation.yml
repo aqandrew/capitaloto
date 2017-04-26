@@ -2,10 +2,6 @@
   url: "/"
   side: left
 
-- title: Providers & Staff
-  url: "/staff/"
-  side: left
-
 - title: Our Practice
   url: "/about/"
   side: left
@@ -14,17 +10,22 @@
       url: "/locations/"
     - title: Services
       url: "/services/"
-    - title: Accepted Insurance
-      url: "/insurance/"
+    - title: Providers & Staff
+      url: "/staff/"
     - title: Careers
       url: "/careers/"
 
+- title: Patient Resources
+  url: "/resources/"
+  side: left
+  dropdown:
+    - title: Forms
+      url: "/forms/"
+    - title: Insurance
+      url: "/insurance/"
+
 - title: Patient Portal
   url: "/patient-portal/"
-  side: left
-
-- title: Patient Forms
-  url: "/forms/"
   side: left
 
 - title: Announcements

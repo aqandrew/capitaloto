@@ -17,12 +17,14 @@ slogan: 'Your Source for Otolaryngology'
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
 description: 'Capital Region Otolaryngology Head and Neck Group, LLP has been serving patients in and near the New York Capital District area for over 50 years.'
 
+hours: 'Monday - Friday, 8:00 am - 4:15 pm'
+
 # The credits show up in the includes/_footer.html – It would be nice of you to leave a link to Phlow or Feeling Responsive as a thank you :)
 credits: '&copy; 2012-2017 Capital Region Otolaryngology Head and Neck Group, LLP. All Rights Reserved.'
 
 # Main author of the website
 # See > authors.yml
-author: phlow
+author: angela
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
