@@ -3,6 +3,8 @@ layout: page
 title: Services
 permalink: /services/
 ---
+Capital Region Otolaryngology specializes in all aspects of medicine for the head, neck, ear, nose and throat. 
+
 ## Audiology
 TODO
 

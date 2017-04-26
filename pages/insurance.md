@@ -13,7 +13,7 @@ As a reminder, please remember to bring your insurance card, any referrals, and 
 We look forward to your visit!
 
 ### Most commonly accepted insurance carriers
-Please call our office at [(518)482-9111](tel:(518)482-9111) if you do not see your insurance company listed below.
+Each company listed below may have multiple plans that we accept. This list is subject to change; please call our office at [(518)482-9111](tel:(518)482-9111) to verify coverage if you are unsure we accept your plan, or if you do not see your insurance company listed below.
 
 {% for insurance in site.data.insurance %}
 - {{ insurance.name }}
