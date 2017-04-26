@@ -4,9 +4,6 @@ title: Providers and Staff
 permalink: /staff/
 nav_order: 0
 ---
-
-TODO This is the page where all of the doctors will be listed.
-
 ## Medical Providers
 
 {% for provider in site.data.staff.medical_providers %}

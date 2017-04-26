@@ -7,4 +7,8 @@ Capital Region Otolaryngology Head and Neck Group, LLP has been serving the New 
 
 ## Contact
 
-TODO here is some contact information.
+Set up an appointment or learn more about us by calling one of our locations.
+
+{% for location in site.data.locations %}
+  - {{ location.name }}: [{{ location.phone }}](tel:{{ location.phone }})
+{% endfor %}
