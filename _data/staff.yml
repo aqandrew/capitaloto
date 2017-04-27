@@ -6,31 +6,39 @@ medical_providers:
     positions:
       - name: Assistant Clinical Professor of Otolaryngology Head and Neck Surgery
         location: Albany Medical Center
-    college: College of the Holy Cross
-    degree: A.B.
-    medical_school: SUNY Upstate Medical Center, New York
-    post_graduate_training:
-      - name: Internship
-        location: Hospital of the University of Pennsylvania
-        field: General Surgery
-      - name: Residency
-        location: Hospital of the University of Pennsylvania
-        field: General Surgery, Otolaryngology
-    board_certification: American Board of Otolaryngology
-    memberships:
-      - Diplomate American Board of Otolaryngology
-      - American Medical Association
-      - Medical Society of the State of New York
-      - American Academy of Otolaryngology
-      - American Rhinological Society
-    hospital_appointments:
-      - Albany Medical Center
-      - AMCH South Clinical Campus
-      - St. Peter’s Hospital
-      - St. Peter’s Surgery & Endoscopy Center
-      - Samaritan Hospital
-      - St. Mary’s Hospital
-      - Saratoga Hospital
+    qualifications:
+      - name: College/Degree
+        value:
+          - College of the Holy Cross, A.B.
+      - name: Medical School
+        value:
+          - SUNY Upstate Medical Center, New York
+    # post_graduate_training:
+    #   - name: Internship
+    #     location: Hospital of the University of Pennsylvania
+    #     field: General Surgery
+    #   - name: Residency
+    #     location: Hospital of the University of Pennsylvania
+    #     field: General Surgery, Otolaryngology
+      - name: Board Certification
+        value:
+          - American Board of Otolaryngology
+      - name: Memberships
+        value:
+          - Diplomate American Board of Otolaryngology
+          - American Medical Association
+          - Medical Society of the State of New York
+          - American Academy of Otolaryngology
+          - American Rhinological Society
+      - name: Hospital Appointments
+        value:
+          - Albany Medical Center
+          - AMCH South Clinical Campus
+          - St. Peter’s Hospital
+          - St. Peter’s Surgery & Endoscopy Center
+          - Samaritan Hospital
+          - St. Mary’s Hospital
+          - Saratoga Hospital
   - name: John D. Kopp, M.D.
   - name: John J. Cevera, M.D.
   - name: Michelle J. Yoon, M.D.
