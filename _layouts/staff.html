@@ -1,0 +1,78 @@
+---
+layout: default
+format: staff
+---
+<!-- Copy of page-fullwidth layout -->
+{% if page.image.title %}
+<div class="row t30">
+	<div class="small-12 columns">
+		<img src="{{ site.urlimg }}{{ page.image.title }}" width="970" alt="{{ page.title | escape_once }}">
+		{% if page.image.caption_url and page.image.caption %}
+		<p class="text-right caption">
+			<a href="{{ page.image.caption_url }}">{{ page.image.caption }}</a>
+		</p>
+		{% endif %}
+	</div><!-- /.small-12.columns -->
+</div><!-- /.row -->
+{% endif %}
+
+
+<div class="row t30">
+	<div class="medium-12 columns">
+		<article>
+			<header>
+				{% if page.subheadline %}<p class="subheadline">{{ page.subheadline }}</p>{% endif %}
+				<h1>{{ page.title }}</h1>
+			</header>
+
+			{% if page.teaser %}
+			<p class="teaser">
+				{{ page.teaser }}
+			</p>
+			{% endif %}
+
+      <h2>
+        Medical Providers
+      </h2>
+
+      <table>
+        <tbody>
+        {% for provider in site.data.staff.medical_providers %}
+        <tr>
+          <td>
+            <h3 class="nomargin">
+              {{ provider.name }}
+            </h3>
+            <img src="{{ provider.image }}" alt="{{ provider.name }}">
+            <h5 class="nomargin">
+              {{ provider.practicing_since }}
+            </h5>
+            <h5 class="nomargin">
+              Specialty: {{ provider.specialty }}
+            </h5>
+          </td>
+          <td>
+            {% for position in provider.positions %}
+              <h5>{{ position.name }}</h5>
+              <h6>{{ position.location }}</h6>
+            {% endfor %}
+          </td>
+        </tr>
+        {% endfor %}
+        </tbody>
+      </table>
+
+      <h2>
+        Audiologists
+      </h2>
+
+      <ul>
+        {% for audiologist in site.data.staff.audiologists %}
+        <li>
+          - {{ audiologist.name }}
+        </li>
+        {% endfor %}
+      </ul>
+		</article>
+	</div><!-- /.medium-12.columns -->
+</div><!-- /.row -->
