@@ -13,13 +13,14 @@ medical_providers:
       - name: Medical School
         value:
           - SUNY Upstate Medical Center, New York
-    # post_graduate_training:
-    #   - name: Internship
-    #     location: Hospital of the University of Pennsylvania
-    #     field: General Surgery
-    #   - name: Residency
-    #     location: Hospital of the University of Pennsylvania
-    #     field: General Surgery, Otolaryngology
+      - name: Post-Graduate Training
+        training:
+          - name: Internship
+            location: Hospital of the University of Pennsylvania
+            field: General Surgery
+          - name: Residency
+            location: Hospital of the University of Pennsylvania
+            field: General Surgery, Otolaryngology
       - name: Board Certification
         value:
           - American Board of Otolaryngology

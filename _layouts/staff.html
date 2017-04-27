@@ -38,7 +38,7 @@ format: staff
       <table>
         {% for provider in site.data.staff.medical_providers %}
         <tr>
-          <td>
+          <td class="staff-card">
             <h3 class="nomargin">
               {{ provider.name }}
             </h3>
@@ -62,8 +62,8 @@ format: staff
                   {{ qualification.name }}
                 </td>
                 <td>
-                  {% assign valueLength = qualification.value.size %}
-                  {% if valueLength == 1 %}
+                  <!-- List out multiply-defined qualifications -->
+                  {% if qualification.value.size == 1 %}
                     {{ qualification.value }}
                   {% else %}
                     <ul>
@@ -73,6 +73,21 @@ format: staff
                         </li>
                       {% endfor %}
                     </ul>
+                  {% endif %}
+                  {% if qualification.training %}
+                    <table>
+                      {% for item in qualification.training %}
+                      <tr>
+                        <td>
+                          {{ item.name }}
+                        </td>
+                        <td>
+                          {{ item.location }}<br/>
+                          {{ item.field }}
+                        </td>
+                      </tr>
+                      {% endfor %}
+                    </table>
                   {% endif %}
                 </td>
               </tr>
