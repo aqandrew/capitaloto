@@ -317,5 +317,84 @@ audiologists:
           - Videonystagmography (VNG) Testing
           - Auditory Brainstem Response (ABR) Testing
   - name: Emily Manley, Au.D., CCC-A
+    image: /images/humans/emily_manley.jpg
+    practicing_since: Practicing audiology since 2011
+    qualifications:
+      - name: College/Degree
+        value:
+          - State University of New York at Plattsburg, Bachelor of Science in Communication Disorders and Sciences
+      - name: Post-Graduate Training
+        training:
+          - name: Fellowship
+            values:
+              - Bay Pines VA Hospital
+              - Tampa Bay Hearing and Balance Center
+      - name: License and Certification
+        value:
+          - New York State License, Audiology
+          - American Speech-Language-Hearing Association, Certificate of Clinical Competence in Audiology
+      - name: Memberships
+        value:
+          - American Academy of Audiology (F-AAA)
+          - American Speech-Language-Hearing Association (ASHA)
+          - New York State Speech-Language-Hearing Association (NYSSLHA)
+          - Capital Area Speech-Language-Hearing Association (CASHA)
+      - name: Specialties
+        value:
+          - Pediatric and Adult Diagnostics
+          - Videonystagmography (VNG) Testing
+          - Auditory Brainstem Response (ABR) Testing
   - name: Kimberly Ringie Au.D., CCC-A
+    image: /images/humans/kim_ringie.jpg
+    practicing_since: Practicing audiology since 2016
+    qualifications:
+      - name: College/Degree
+        value:
+          - Elms College, Chicopee, MA, Bachelor of Arts in Communication Disorders and Sciences
+          - University of Massachusetts at Amherst, Doctor of Audiology
+      - name: Post-Graduate Training
+        training:
+          - name: TODO
+            values: Capital Region Otolaryngology Head and Neck Group
+      - name: License and Certification
+        value:
+          - New York State License, Audiology
+          - American Speech-Language-Hearing Association, Certificate of Clinical Competence in Audiology
+      - name: Memberships
+        value:
+          - American Academy of Audiology (F-AAA)
+          - American Speech-Language-Hearing Association (ASHA)
+          - New York State Speech-Language-Hearing Association (NYSSLHA)
+          - Capital Area Speech-Language-Hearing Association (CASHA)
+      - name: Specialties
+        value:
+          - Pediatric and Adult Diagnostics
+          - Videonystagmography (VNG) Testing
+          - Auditory Brainstem Response (ABR) Testing
   - name: Susan A. Rest, M.Ed., CCC-A
+    image: /images/humans/susan_rest.jpg
+    practicing_since: Practicing audiology since 1987
+    qualifications:
+      - name: College/Degree
+        value:
+          - Florida State University, Bachelor of Science in Audiology
+          - University of Virginia, Masters of Education in Audiology
+      - name: Post-Graduate Training
+        training:
+          - name: Fellowship
+            values: Albany Medical Center Hospital, Albany, NY
+      - name: License and Certification
+        value:
+          - New York State License, Audiology
+          - American Speech-Language-Hearing Association, Certificate of Clinical Competence in Audiology
+      - name: Memberships
+        value:
+          - American Academy of Audiology (F-AAA)
+          - American Speech-Language-Hearing Association (ASHA)
+          - New York State Speech-Language-Hearing Association (NYSSLHA)
+          - Capital Area Speech-Language-Hearing Association (CASHA)
+      - name: Specialties
+        value:
+          - Pediatric and Adult Diagnostics
+          - Videonystagmography (VNG) Testing
+          - Auditory Brainstem Response (ABR) Testing
