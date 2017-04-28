@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-fullwidth
 title: Locations & Directions
 permalink: /locations/
 ---
@@ -72,9 +72,9 @@ Click each marker on the map below for directions to one of our locations.
   src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAfIcDESp0aiadHZ5zoSJTox0TCHyudxmk&callback=initMap">
 </script>
 
-Location | Phone | Fax
---- | --- | ---
-{% for location in site.data.locations  %}**{{ location.name }}**<br/>{{ location.address }} | [{{ location.phone }}](tel:{{ location.phone }}) | [{{ location.fax }}](tel:{{ location.fax }})
+Image | Location | Phone | Fax
+--- | --- | --- | ---
+{% for location in site.data.locations  %}![{{ location.name }}]({{ site.urlimg }}{{ location.image }}) | **{{ location.name }}**<br/>{{ location.address }} | [{{ location.phone }}](tel:{{ location.phone }}) | [{{ location.fax }}](tel:{{ location.fax }})
 {% endfor %}
 
 ### Hours
