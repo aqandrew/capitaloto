@@ -1,0 +1,63 @@
+<table>
+  {% for staff_member in include.staff_list %}
+  <tr>
+    <td class="staff-card">
+      <h3 class="nomargin">
+        {{ staff_member.name }}
+      </h3>
+      <img src="{{ staff_member.image }}" alt="{{ staff_member.name }}">
+      <h5 class="nomargin">
+        {{ staff_member.practicing_since }}
+      </h5>
+      <h5 class="nomargin">
+        Specialty: {{ staff_member.specialty }}
+      </h5>
+    </td>
+    <td>
+      {% for position in staff_member.positions %}
+        <h5>{{ position.name }}</h5>
+        <h6>{{ position.location }}</h6>
+      {% endfor %}
+      <table>
+        {% for qualification in staff_member.qualifications %}
+        <tr>
+          <td>
+            {{ qualification.name }}
+          </td>
+          <td>
+            <!-- List out multiply-defined qualifications -->
+            {% if qualification.value.size == 1 %}
+              {{ qualification.value }}
+            {% else %}
+              <ul>
+                {% for item in qualification.value %}
+                  <li>
+                    {{ item }}
+                  </li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+            {% if qualification.training %}
+              <table>
+                {% for item in qualification.training %}
+                <tr>
+                  <td>
+                    {{ item.name }}
+                  </td>
+                  <td>
+                    {% for value in item.values %}
+                      {{ value }}<br/>
+                    {% endfor %}
+                  </td>
+                </tr>
+                {% endfor %}
+              </table>
+            {% endif %}
+          </td>
+        </tr>
+        {% endfor %}
+      </table>
+    </td>
+  </tr>
+  {% endfor %}
+</table>

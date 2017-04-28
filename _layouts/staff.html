@@ -35,69 +35,7 @@ format: staff
         Medical Providers
       </h2>
 
-      <table>
-        {% for provider in site.data.staff.medical_providers %}
-        <tr>
-          <td class="staff-card">
-            <h3 class="nomargin">
-              {{ provider.name }}
-            </h3>
-            <img src="{{ provider.image }}" alt="{{ provider.name }}">
-            <h5 class="nomargin">
-              {{ provider.practicing_since }}
-            </h5>
-            <h5 class="nomargin">
-              Specialty: {{ provider.specialty }}
-            </h5>
-          </td>
-          <td>
-            {% for position in provider.positions %}
-              <h5>{{ position.name }}</h5>
-              <h6>{{ position.location }}</h6>
-            {% endfor %}
-            <table>
-              {% for qualification in provider.qualifications %}
-              <tr>
-                <td>
-                  {{ qualification.name }}
-                </td>
-                <td>
-                  <!-- List out multiply-defined qualifications -->
-                  {% if qualification.value.size == 1 %}
-                    {{ qualification.value }}
-                  {% else %}
-                    <ul>
-                      {% for item in qualification.value %}
-                        <li>
-                          {{ item }}
-                        </li>
-                      {% endfor %}
-                    </ul>
-                  {% endif %}
-                  {% if qualification.training %}
-                    <table>
-                      {% for item in qualification.training %}
-                      <tr>
-                        <td>
-                          {{ item.name }}
-                        </td>
-                        <td>
-                          {% for value in item.values %}
-                            {{ value }}<br/>
-                          {% endfor %}
-                        </td>
-                      </tr>
-                      {% endfor %}
-                    </table>
-                  {% endif %}
-                </td>
-              </tr>
-              {% endfor %}
-            </table>
-          </td>
-        </tr>
-        {% endfor %}
-      </table>
+      {% include _staff_table.html staff_list = site.data.staff.medical_providers %}
 
       <h2>
         Audiologists
