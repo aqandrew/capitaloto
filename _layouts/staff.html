@@ -82,8 +82,9 @@ format: staff
                           {{ item.name }}
                         </td>
                         <td>
-                          {{ item.location }}<br/>
-                          {{ item.field }}
+                          {% for value in item.values %}
+                            {{ value }}<br/>
+                          {% endfor %}
                         </td>
                       </tr>
                       {% endfor %}

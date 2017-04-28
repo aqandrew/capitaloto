@@ -16,11 +16,13 @@ medical_providers:
       - name: Post-Graduate Training
         training:
           - name: Internship
-            location: Hospital of the University of Pennsylvania
-            field: General Surgery
+            values:
+              - Hospital of the University of Pennsylvania
+              - General Surgery
           - name: Residency
-            location: Hospital of the University of Pennsylvania
-            field: General Surgery, Otolaryngology
+            values:
+              - Hospital of the University of Pennsylvania
+              - General Surgery, Otolaryngology
       - name: Board Certification
         value:
           - American Board of Otolaryngology
@@ -41,6 +43,47 @@ medical_providers:
           - St. Mary’s Hospital
           - Saratoga Hospital
   - name: John D. Kopp, M.D.
+    image: /images/humans/john_kopp.jpg
+    practicing_since: Practicing medicine since 1983
+    specialty: General Otolaryngology, Head and Neck Surgery
+    positions:
+      - name: Clinical Assistant Professor of Otolaryngology, Head and Neck Surgery
+        location: Albany Medical Center
+    qualifications:
+      - name: College/Degree
+        value:
+          - Hobart College, Bachelor of Science
+      - name: Medical School
+        value:
+          - Albany Medical College, Doctor of Medicine
+      - name: Post-Graduate Training
+        training:
+          - name: Internship
+            values:
+              - St. Francis Hospital & Medical Center, Connecticut
+              - General Surgery
+          - name: Residency
+            values:
+              - University of Connecticut Affiliated Hospitals
+              - General Surgery, Otolaryngology
+      - name: Board Certification
+        value:
+          - American Board of Otolaryngology, Diplomate, 1988
+      - name: Memberships
+        value:
+          - American College of Surgeons, Fellow
+          - American Academy of Otolaryngology, Head and Neck Surgery
+          - American College of Surgeons
+          - New York State Society of Otolaryngology, Head and Neck Surgery
+          - Albany County Medical Society
+      - name: Hospital Appointments
+        value:
+          - Albany Medical Center
+          - AMCH South Clinical Campus
+          - St. Peter’s Hospital
+          - St. Peter’s Surgery & Endoscopy Center
+          - Samaritan Hospital
+          - St. Mary’s Hospital
   - name: John J. Cevera, M.D.
   - name: Michelle J. Yoon, M.D.
   - name: Lyon M. Greenberg, M.D.
@@ -48,7 +91,8 @@ medical_providers:
   - name: Jennifer Sulkow, RPAC, MPAS
 
 audiologists:
-  - name: Julie C. Hanson, AuD., CCC-A
-  - name: Lauren M. Marino, AuD., CCC-A
-  - name: Emily Manley, AuD., CCC-A
-  - name: Kimberly Ringie
+  - name: Julie C. Hanson, Au.D., CCC-A
+  - name: Lauren M. Marino, Au.D., CCC-A
+  - name: Emily Manley, Au.D., CCC-A
+  - name: Kimberly Ringie Au.D., CCC-A
+  - name: Susan A. Rest, M.Ed., CCC-A
