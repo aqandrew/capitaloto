@@ -85,6 +85,44 @@ medical_providers:
           - Samaritan Hospital
           - St. Mary’s Hospital
   - name: John J. Cevera, M.D.
+    image: /images/humans/john_cevera.jpg
+    practicing_since: Practicing medicine since 1997
+    specialty: General Otolaryngology
+    positions:
+      - name: Clinical Assistant Professor of Otolaryngology, Head and Neck Surgery
+        location: Albany Medical Center
+    qualifications:
+      - name: College/Degree
+        value:
+          - Colgate University, B.A.
+      - name: Medical School
+        value:
+          - Hahnemann University School of Medicine
+      - name: Post-Graduate Training
+        training:
+          - name: Internship
+            values:
+              - Albany Medical Center, New York
+              - General Surgery
+          - name: Residency
+            values:
+              - Albany Medical College, New York
+              - Otolaryngology
+      - name: Board Certification
+        value:
+          - American Board of Otolaryngology
+      - name: Memberships
+        value:
+          - American Academy of Otolaryngology, Head and Neck Surgery
+          - Alpha Omega Alpha National Medical Honor Society
+      - name: Hospital Appointments
+        value:
+          - Albany Medical Center
+          - AMCH South Clinical Campus
+          - St. Peter’s Hospital
+          - St. Peter’s Surgery & Endoscopy Center
+          - Samaritan Hospital
+          - St. Mary’s Hospital
   - name: Michelle J. Yoon, M.D.
   - name: Lyon M. Greenberg, M.D.
   - name: Mark J. Levenson, M.D.
