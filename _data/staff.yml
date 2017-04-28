@@ -317,7 +317,7 @@ audiologists:
           - Videonystagmography (VNG) Testing
           - Auditory Brainstem Response (ABR) Testing
   - name: Emily Manley, Au.D., CCC-A
-    image: /images/humans/emily_manley.jpg
+    image: /images/humans/emily_manley_cropped.jpg
     practicing_since: Practicing audiology since 2011
     qualifications:
       - name: College/Degree
@@ -345,7 +345,7 @@ audiologists:
           - Videonystagmography (VNG) Testing
           - Auditory Brainstem Response (ABR) Testing
   - name: Kimberly Ringie Au.D., CCC-A
-    image: /images/humans/kim_ringie.jpg
+    image: /images/humans/kim_ringie_cropped.jpg
     practicing_since: Practicing audiology since 2016
     qualifications:
       - name: College/Degree
