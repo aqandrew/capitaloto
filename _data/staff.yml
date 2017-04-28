@@ -124,6 +124,41 @@ medical_providers:
           - Samaritan Hospital
           - St. Mary’s Hospital
   - name: Michelle J. Yoon, M.D.
+      image: /images/humans/michelle_yoon.jpg
+      practicing_since: Practicing medicine since 2002
+      specialty: General Otolaryngology
+      qualifications:
+        - name: College/Degree
+          value:
+            - Wellesley College
+        - name: Medical School
+          value:
+            - University of Kansas School of Medicine
+        - name: Post-Graduate Training
+          training:
+            - name: Internship
+              values:
+                - St. Elizabeth’s Medical Center, Massachusetts
+                - General Surgery
+            - name: Residency
+              values:
+                - Tufts-New England Medical Center, Massachusetts
+                - Otolaryngology
+        - name: Board Certification
+          value:
+            - American Board of Otolaryngology
+        - name: Memberships
+          value:
+            - American Academy of Otolaryngology, Head and Neck Surgery
+            - New England Otolaryngological Society
+        - name: Hospital Appointments
+          value:
+            - Albany Medical Center
+            - AMCH South Clinical Campus
+            - St. Peter’s Hospital
+            - St. Peter’s Surgery & Endoscopy Center
+            - Samaritan Hospital
+            - St. Mary’s Hospital
   - name: Lyon M. Greenberg, M.D.
   - name: Mark J. Levenson, M.D.
   - name: Jennifer Sulkow, RPAC, MPAS
