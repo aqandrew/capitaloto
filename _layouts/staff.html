@@ -41,13 +41,7 @@ format: staff
         Audiologists
       </h2>
 
-      <ul>
-        {% for audiologist in site.data.staff.audiologists %}
-        <li>
-          - {{ audiologist.name }}
-        </li>
-        {% endfor %}
-      </ul>
+      {% include _staff_table.html staff_list = site.data.staff.audiologists %}
 		</article>
 	</div><!-- /.medium-12.columns -->
 </div><!-- /.row -->

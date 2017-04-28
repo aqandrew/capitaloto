@@ -258,7 +258,64 @@ medical_providers:
 
 audiologists:
   - name: Julie C. Hanson, Au.D., CCC-A
+    image: /images/humans/julie_hanson.jpg
+    practicing_since: Practicing audiology since 1997
+    qualifications:
+      - name: College/Degree
+        value:
+          - University of Massachusetts at Amherst, Bachelor of Science in Communication Disorders
+          - Gallaudet University, Master of Science in Audiology
+          - A.T. Still University, Arizona School of Health Sciences, Doctor of Audiology
+      - name: Post-Graduate Training
+        training:
+          - name: Fellowship
+            values:
+              - "University of Vermont, E.M. Luse Center for Communication: Speech, Language, and Hearing"
+      - name: License and Certification
+        value:
+          - New York State License, Audiology
+          - American Speech-Language-Hearing Association, Certificate of Clinical Competence in Audiology
+      - name: Memberships
+        value:
+          - American Academy of Audiology (F-AAA)
+          - American Speech-Language-Hearing Association (ASHA)
+          - New York State Speech-Language-Hearing Association (NYSSLHA)
+          - Capital Area Speech-Language-Hearing Association (CASHA)
+      - name: specialties
+        value:
+          - Pediatric and Adult Diagnostics
+          - Auditory and Brainstem Response (ABR) Testing
+          - Osseointegrated Implants
+          - Cochlear Implants
   - name: Lauren M. Marino, Au.D., CCC-A
+    image: /images/humans/lauren_marino.jpg
+    practicing_since: Practicing audiology since 2004
+    qualifications:
+      - name: College/Degree
+        value:
+          - Hofstra University, Hempstead, NY, Bachelor of Arts in Speech-Language-Hearing Sciences
+          - Hofstra University, Hempstead, NY, Master of Arts in Audiology
+          - Salus University, Osborne College of Audiology, Doctor of Audiology
+      - name: Post-Graduate Training
+        training:
+          - name: Fellowship
+            values:
+              - Minneola ENT
+      - name: License and Certification
+        value:
+          - New York State License, Audiology
+          - American Speech-Language-Hearing Association, Certificate of Clinical Competence in Audiology
+      - name: Memberships
+        value:
+          - American Academy of Audiology (F-AAA)
+          - American Speech-Language-Hearing Association (ASHA)
+          - New York State Speech-Language-Hearing Association (NYSSLHA)
+          - Capital Area Speech-Language-Hearing Association (CASHA)
+      - name: Specialties
+        value:
+          - Pediatric and Adult Diagnostics
+          - Videonystagmography (VNG) Testing
+          - Auditory Brainstem Response (ABR) Testing
   - name: Emily Manley, Au.D., CCC-A
   - name: Kimberly Ringie Au.D., CCC-A
   - name: Susan A. Rest, M.Ed., CCC-A

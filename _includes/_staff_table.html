@@ -9,9 +9,11 @@
       <h5 class="nomargin">
         {{ staff_member.practicing_since }}
       </h5>
-      <h5 class="nomargin">
-        Specialty: {{ staff_member.specialty }}
-      </h5>
+      {% if staff_member.specialty %}
+        <h5 class="nomargin">
+          Specialty: {{ staff_member.specialty }}
+        </h5>
+      {% endif %}
     </td>
     <td>
       {% for position in staff_member.positions %}
