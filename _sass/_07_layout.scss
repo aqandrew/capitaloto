@@ -362,8 +362,22 @@ body.video cite { color: #fff; }
 .pr10 { padding-right: 10px !important; }
 .pr20 { padding-right: 20px !important; }
 
-.nomargin { margin: 0 !important; }
-.staff-card {
-  text-align: center;
-  max-width: 500px;
+.nomargin-top { margin-top: 0 !important; }
+.staff-table, .staff-table table {
+  border: 1px solid $grey-7;
+  margin-bottom: 0;
+
+  .staff-card {
+    text-align: center;
+    max-width: 540px;
+
+    h3, h5:first-child {
+      margin-bottom: 1.125rem;
+    }
+  }
+
+  ul {
+    margin-bottom: 0;
+    font-size: 0.875rem;
+  }
 }

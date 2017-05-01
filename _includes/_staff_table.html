@@ -1,16 +1,16 @@
-<table>
+<table class="staff-table">
   {% for staff_member in include.staff_list %}
   <tr>
     <td class="staff-card">
-      <h3 class="nomargin">
+      <h3 class="nomargin-top">
         {{ staff_member.name }}
       </h3>
       <img src="{{ staff_member.image }}" alt="{{ staff_member.name }}" class="staff-portrait">
-      <h5 class="nomargin">
+      <h5>
         {{ staff_member.practicing_since }}
       </h5>
       {% if staff_member.specialty %}
-        <h5 class="nomargin">
+        <h5 class="nomargin-top">
           Specialty: {{ staff_member.specialty }}
         </h5>
       {% endif %}
@@ -28,9 +28,9 @@
           </td>
           <td>
             <!-- List out multiply-defined qualifications -->
-            {% if qualification.value.size == 1 %}
+            {% if qualification.value and qualification.value.size == 1 %}
               {{ qualification.value }}
-            {% else %}
+            {% elsif qualification.value %}
               <ul>
                 {% for item in qualification.value %}
                   <li>
