@@ -1,49 +1,16 @@
 @charset "utf-8";
 /* TOC – Color Variables
 
+- Grey Scale
 - Basics
 - Corporate Identity Colorpalette
 - Foundation Color Variables
-- Grey Scale
 - Topbar-Navigation
+- Masthead
 - Footer
 - Code
 
 */
-
-
-
-/* Basics
-------------------------------------------------------------------- */
-
-$text-color:       	#111;
-$body-font-color: 	$text-color;
-$body-bg: 			#fdfdfd;
-
-
-
-/* Corporate Identity Colorpalette
-   https://color.adobe.com/de/Flat-Design-Colors-v2-color-theme-4341903/
-------------------------------------------------------------------- */
-
-$ci-1: #004f84;		// congress blue
-$ci-2: #018ee9;		// azure
-$ci-3: #EFC94C;		// yellow
-$ci-4: #E27A3F;		// orange
-$ci-5: #DF4949;		// red
-$ci-6: #00b454;   // pigment green
-
-
-
-/* Foundation Color Variables
-------------------------------------------------------------------- */
-
-$primary-color: $ci-1;
-$secondary-color: $ci-6;
-$alert-color: $ci-5;
-$success-color: $ci-6;
-$warning-color: $ci-4;
-$info-color: $ci-1;
 
 
 
@@ -66,6 +33,40 @@ $grey-13: #313131;
 $grey-14: #242424;
 $grey-15: #171717;
 $grey-16: #0B0B0B;
+
+
+
+/* Basics
+------------------------------------------------------------------- */
+
+$text-color:       	#111;
+$body-font-color: 	$text-color;
+$body-bg: 			$grey-1;
+
+
+
+/* Corporate Identity Colorpalette
+   https://color.adobe.com/de/Flat-Design-Colors-v2-color-theme-4341903/
+------------------------------------------------------------------- */
+
+$ci-1: #004f84;		// congress blue
+$ci-2: #018ee9;		// azure
+$ci-3: #002c49;		// blue whale
+$ci-4: #E27A3F;		// orange
+$ci-5: #DF4949;		// red
+$ci-6: #00b454;   // pigment green
+
+
+
+/* Foundation Color Variables
+------------------------------------------------------------------- */
+
+$primary-color: $ci-1;
+$secondary-color: $ci-6;
+$alert-color: $ci-5;
+$success-color: $ci-6;
+$warning-color: $ci-4;
+$info-color: $ci-1;
 
 
 
@@ -104,10 +105,16 @@ $topbar-menu-icon-color-toggled: $ci-6;
 
 
 
+/* Masthead
+------------------------------------------------------------------- */
+$masthead-color: $ci-3;
+
+
+
 /* Footer
 ------------------------------------------------------------------- */
 
-$footer-bg: $grey-12;
+$footer-bg: $grey-13;
 $footer-color: #fff;
 $footer-link-color: $ci-6;
 
