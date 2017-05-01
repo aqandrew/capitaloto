@@ -381,3 +381,14 @@ body.video cite { color: #fff; }
     font-size: 0.875rem;
   }
 }
+
+.row:nth-child(3) > div {
+  // parent-div of article
+  background-color: $article-color;
+}
+
+#header-home + .row + .row {
+  // frontpage widgets row
+  background-color: $article-color;
+  padding-top: 10px;
+}
