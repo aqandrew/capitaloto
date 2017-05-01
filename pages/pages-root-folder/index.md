@@ -34,11 +34,11 @@ actionbuttons:
   - callforaction1:
     url: /about#contact
     text: Make an appointment
-    style: secondary
+    style: primary
   - callforaction2:
     url: https://www.medentmobile.com/portal/index.php?practice_id=8HPZ85s4
     text: Log in to your Patient Portal
-    style: primary
+    style: secondary
 
 permalink: /index.html
 #

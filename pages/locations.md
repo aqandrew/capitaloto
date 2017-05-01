@@ -17,7 +17,10 @@ Click each marker on the map below for directions to one of our locations.
 <script>
   // http://stackoverflow.com/questions/27765446/directions-to-marker-with-google-maps-api
   // https://wrightshq.com/playground/placing-multiple-markers-on-a-google-map-using-api-3/
+  // https://developers.google.com/maps/documentation/javascript/examples/control-custom
 
+  let bounds;
+  let defaultZoom = 11;
   let markers = [
     {
       name: 'Albany',
@@ -45,11 +48,42 @@ Click each marker on the map below for directions to one of our locations.
     }
   ];
 
+  function CenterControl(controlDiv, map) {
+    // Set CSS for the control border.
+    var controlUI = document.createElement('div');
+    controlUI.style.backgroundColor = '#fff';
+    controlUI.style.border = '2px solid #fff';
+    controlUI.style.borderRadius = '3px';
+    controlUI.style.boxShadow = '0 2px 6px rgba(0,0,0,.3)';
+    controlUI.style.cursor = 'pointer';
+    controlUI.style.marginBottom = '22px';
+    controlUI.style.textAlign = 'center';
+    controlUI.title = 'Click to recenter the map';
+    controlDiv.appendChild(controlUI);
+
+    // Set CSS for the control interior.
+    var controlText = document.createElement('div');
+    controlText.style.color = 'rgb(25,25,25)';
+    controlText.style.fontFamily = 'Roboto,Arial,sans-serif';
+    controlText.style.fontSize = '12px';
+    controlText.style.lineHeight = '24px';
+    controlText.style.paddingLeft = '5px';
+    controlText.style.paddingRight = '5px';
+    controlText.innerHTML = 'Center Map';
+    controlUI.appendChild(controlText);
+
+    // Setup the click event listeners: simply set the map to Chicago.
+    controlUI.addEventListener('click', function() {
+      map.fitBounds(bounds);
+      map.setZoom(defaultZoom);
+    });
+  }
+
   function initMap() {
     let map = new google.maps.Map(document.getElementById('capitaloto-map'), {
-      zoom: 10,
+      fullscreenControl: true
     });
-    let bounds = new google.maps.LatLngBounds();
+    bounds = new google.maps.LatLngBounds();
 
     // Place markers
     for (let m = 0; m < markers.length; m++) {
@@ -63,6 +97,14 @@ Click each marker on the map below for directions to one of our locations.
 
       google.maps.event.addListener(marker, 'click', () => window.location = markers[m].url );
     }
+
+    // Create the DIV to hold the center control and call the CenterControl()
+    // constructor passing in this DIV.
+    var centerControlDiv = document.createElement('div');
+    var centerControl = new CenterControl(centerControlDiv, map);
+
+    centerControlDiv.index = 1;
+    map.controls[google.maps.ControlPosition.BOTTOM_CENTER].push(centerControlDiv);
 
     // Automatically center map, fitting all markers
     map.fitBounds(bounds);

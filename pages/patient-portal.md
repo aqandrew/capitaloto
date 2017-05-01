@@ -6,7 +6,7 @@ nav_order: 2
 ---
 <div class="row t30 b15">
     <div class="small-12 text-center columns">
-        <a class="button large radius primary" href="{{ site.patient-portal-url }}" target="_blank">Log in to your Patient Portal</a>
+        <a class="button large radius secondary" href="{{ site.patient-portal-url }}" target="_blank">Log in to your Patient Portal</a>
     </div>
 </div>
 
