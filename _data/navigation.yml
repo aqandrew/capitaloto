@@ -12,8 +12,6 @@
       url: "/services/"
     - title: Providers & Staff
       url: "/staff/"
-    - title: Careers
-      url: "/careers/"
 
 - title: Patient Resources
   url: "/resources/"
