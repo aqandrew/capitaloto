@@ -24,14 +24,14 @@
         {% for qualification in staff_member.qualifications %}
         <tr>
           <td>
-            {{ qualification.name }}
+            <strong>{{ qualification.name }}</strong>
           </td>
           <td>
             <!-- List out multiply-defined qualifications -->
             {% if qualification.value and qualification.value.size == 1 %}
               {{ qualification.value }}
             {% elsif qualification.value %}
-              <ul>
+              <ul class="no-bullet">
                 {% for item in qualification.value %}
                   <li>
                     {{ item }}
@@ -44,12 +44,16 @@
                 {% for item in qualification.training %}
                 <tr>
                   <td>
-                    {{ item.name }}
+                    <strong>{{ item.name }}</strong>
                   </td>
                   <td>
-                    {% for value in item.values %}
-                      {{ value }}<br/>
-                    {% endfor %}
+                    <ul class="no-bullet">
+                      {% for value in item.values %}
+                        <li>
+                          {{ value }}
+                        </li>
+                      {% endfor %}
+                    </ul>
                   </td>
                 </tr>
                 {% endfor %}

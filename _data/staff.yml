@@ -281,7 +281,7 @@ audiologists:
           - American Speech-Language-Hearing Association (ASHA)
           - New York State Speech-Language-Hearing Association (NYSSLHA)
           - Capital Area Speech-Language-Hearing Association (CASHA)
-      - name: specialties
+      - name: Specialties
         value:
           - Pediatric and Adult Diagnostics
           - Auditory and Brainstem Response (ABR) Testing
