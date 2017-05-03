@@ -1,7 +1,7 @@
 <table class="staff-table">
   {% for staff_member in include.staff_list %}
   <tr>
-    <td class="staff-card">
+    <td class="staff-card" id="{{ staff_member.name | slugify }}">
       <h3 class="nomargin-top">
         {{ staff_member.name }}
       </h3>
