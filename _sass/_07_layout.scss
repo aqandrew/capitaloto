@@ -363,6 +363,7 @@ body.video cite { color: #fff; }
 .pr20 { padding-right: 20px !important; }
 
 .nomargin-top { margin-top: 0 !important; }
+.nomargin-bottom { margin-bottom: 0 !important; }
 .staff-table, .staff-table table {
   border: 1px solid $grey-7;
   margin-bottom: 0;
@@ -382,7 +383,7 @@ body.video cite { color: #fff; }
   }
 }
 
-.row:nth-child(3) > div {
+.row:nth-child(3) > div:not(.footer-address) {
   // parent-div of article
   background-color: $article-color;
 }

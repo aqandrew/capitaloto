@@ -498,3 +498,8 @@ font-smoothing: antialiased;
 .icon-warning:before { content: "\f131"; }
 .icon-xing:before { content: "\f135"; }
 .icon-youtube:before { content: "\f132"; }
+
+.footer-heading-link {
+  text-transform: none;
+  font-family: $font-family-sans-serif;
+}
