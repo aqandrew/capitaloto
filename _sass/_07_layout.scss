@@ -383,8 +383,8 @@ body.video cite { color: #fff; }
   }
 }
 
-.row:nth-child(3) > div:not(.footer-address) {
-  // parent-div of article
+.row:nth-child(3) > div:not(.footer-address), .homepage, .homepage + .row {
+  // parent-div of article, announcements on frontpage
   background-color: $article-color;
 }
 
