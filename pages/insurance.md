@@ -5,7 +5,9 @@ permalink: /insurance/
 ---
 Most plans require co-payments; some plans require referrals and/or have high deductibles. If you are unsure about the requirements of your plan, please contact your insurance carrier prior to your appointment.
 
-As a reminder, please remember to bring your insurance card, any referrals, and a list of current medications you are taking to your appointment. We collect co-payments at the time of your visit. If your insurance plan has a high deductible which you have not met, please be prepared to make the following payments at the time of your visit:
+As a reminder, please remember to bring your insurance card, any referrals, and a list of current medications you are taking to your appointment. We collect co-payments at the time of your visit.
+
+**Note**: If your insurance plan has a *high deductible which you have not met*, please be prepared to make the following payments at the time of your visit:
 
 - $175.00 for new patients
 - $75.00 for existing patients

@@ -10,7 +10,7 @@ Capital Region Otolaryngology specializes in all aspects of medicine for the hea
 TODO
 
 ## Otology/Ear Diseases
-<a href="/staff/#{{ levenson.name | slugify }}">{{ levenson.name }}</a> specializes in diseases of the ear including hearing loss, dizziness, cholesteatomas, chronic ear infections, and acoustic neuromas. He participates in the latest treatments for hearing loss and deafness. Information about ear diseases and detailed surgical procedures can be viewed on Dr. Levenson’s website at [www.EarSurgery.org](www.earsurgery.org).
+<a href="/staff/#{{ levenson.name | slugify }}">{{ levenson.name }}</a> specializes in diseases of the ear including hearing loss, dizziness, cholesteatomas, chronic ear infections, and acoustic neuromas. He participates in the latest treatments for hearing loss and deafness.
 
 ## Pediatric Otolaryngology
 TODO

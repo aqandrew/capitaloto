@@ -8,12 +8,12 @@ layout: frontpage
 widget1:
   title: "About Us"
   url: '/about'
-  image: TODO
+  image: ent015.jpg
   text: 'Capital Region Otolaryngology Head and Neck Group, LLP has been serving the New York Capital District area for more than 50 years. Our mission is to evaluate each patient by performing comprehensive ear, nose, and throat examinations in order to provide the finest treatment.'
 widget2:
   title: "Services"
   url: '/services'
-  image: humans/ent204.jpg
+  image: humans/ent173.jpg
   text: '<ul><li>Audiology</li><li>Otology/Ear Diseases</li><li>Pediatric Otolaryngology</li><li>Sinus</li><li>Head & Neck Surgery</li></ul>'
 widget3:
   title: "Locations & Hours"
