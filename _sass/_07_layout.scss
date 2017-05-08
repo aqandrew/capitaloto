@@ -382,15 +382,20 @@ body.video cite { color: #fff; }
   }
 }
 
+/* offset-x | offset-y | blur-radius | spread-radius | color */
+$article-shadow: 0px 1px 4px 2px rgba(0, 0, 0, 0.2);
+
 .row:nth-child(3) > div:not(.footer-address), .homepage, .homepage + .row {
   // parent-div of article, announcements on frontpage
   background-color: $article-color;
+  box-shadow: $article-shadow;
 }
 
 #header-home + .row + .row {
   // frontpage widgets row
   background-color: $article-color;
   padding-top: 10px;
+  box-shadow: $article-shadow;
 }
 
 .center {
