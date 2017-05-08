@@ -15,6 +15,7 @@
 - Footer
 - Subfooter
 - CSS-Classes to add margin at top or bottom
+- Miscellaneous
 
 */
 
@@ -87,7 +88,6 @@ body.video cite { color: #fff; }
 }
 #logo img {
     margin: 0 auto;
-    height: 170px;
     display: block;
     object-fit: contain; // TODO polyfill for IE
 }
@@ -356,6 +356,11 @@ body.video cite { color: #fff; }
 .pr10 { padding-right: 10px !important; }
 .pr20 { padding-right: 20px !important; }
 
+
+
+/* Miscellaneous
+------------------------------------------------------------------- */
+
 .nomargin-top { margin-top: 0 !important; }
 .nomargin-bottom { margin-bottom: 0 !important; }
 .staff-table, .staff-table table {
@@ -386,4 +391,12 @@ body.video cite { color: #fff; }
   // frontpage widgets row
   background-color: $article-color;
   padding-top: 10px;
+}
+
+.center {
+  text-align: center;
+
+  ul {
+    display: inline-block;
+  }
 }

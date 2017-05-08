@@ -9,8 +9,16 @@ As a reminder, please remember to bring your insurance card, any referrals, and 
 
 **Note**: If your insurance plan has a *high deductible which you have not met*, please be prepared to make the following payments at the time of your visit:
 
-- $175.00 for new patients
-- $75.00 for existing patients
+<div class="center">
+  <ul>
+    <li>
+      $175.00 for new patients
+    </li>
+    <li>
+      $75.00 for existing patients
+    </li>
+  </ul>
+</div>
 
 We look forward to your visit!
 

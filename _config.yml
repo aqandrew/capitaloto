@@ -42,7 +42,7 @@ urlimg: 'http://localhost:4000/images/'
 
 
 # Logo size is 600x80 pixels
-logo: "logo.png"
+logo: "capitaloto_logo_small.png"
 
 # Gems
 gems:
