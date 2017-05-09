@@ -14,7 +14,17 @@ widget2:
   title: "Services"
   url: '/services'
   image: humans/ent173.jpg
-  text: '<ul><li>Audiology</li><li>Otology/Ear Diseases</li><li>Pediatric Otolaryngology</li><li>Sinus</li><li>Head & Neck Surgery</li></ul>'
+  link_list:
+    - name: Audiology
+      url: services/audiology/
+    - name: Otology/Ear Diseases
+      url: services/otology/
+    - name: Pediatric Otolaryngology
+      url: services/pediatric_otolaryngology/
+    - name: Sinus
+      url: services/sinus/
+    - name: Head & Neck Surgery
+      url: services/head_neck_surgery/
 widget3:
   title: "Locations & Hours"
   url: '/locations'

@@ -4,7 +4,7 @@ title: Services
 permalink: /services/
 ---
 ![medical instruments]({{ site.urlimg }}ent012.jpg)
-![more medical instruments]({{ site.urlimg }}ent010.jpg)
+![medical procedure]({{ site.urlimg }}/humans/ent086.jpg)
 
 Capital Region Otolaryngology specializes in all aspects of medicine for the head, neck, ear, nose and throat. Click the name of a service to learn more.
 
