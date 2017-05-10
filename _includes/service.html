@@ -11,9 +11,9 @@
             {% for section in content.sections %}
             <li>
               <a href="#{{ section.name | slugify }}">{{ section.name }}</a>
-              {% if content.subsections %}
+              {% if section.subsections %}
                 <ul>
-                  {% for subsection in content.subsections %}
+                  {% for subsection in section.subsections %}
                   <li>
                     <a href="{{ subsection.name }}">{{ subsection.name }}</a>
                   </li>
@@ -58,7 +58,6 @@
     <h4 id="{{ subsection.name | slugify}}">{{ subsection.name }}</h4>
       {% for item in subsection.body %}
         {% if item.text %}
-        ONE
         <p>
           {{ item.text }}
         </p>
@@ -67,12 +66,20 @@
             {% for list_item in item.list %}
             <li>
               {{ list_item }}
+              <!-- {% if list_item.sublist %}
+              <ul>
+                {% for sub_item in list_item.sublist %}
+                <li>
+                  {{ sub_item }}
+                </li>
+                {% endfor %}
+              </ul> -->
+              <!-- {% endif %} -->
             </li>
             {% endfor %}
           </ul>
           {% endif %}
         {% elsif item.image %}
-        TWO
         <img src="{{ site.urlimg }}{{ item.image }}" class="center">
         {% elsif item.table %}
         <table>
