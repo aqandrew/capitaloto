@@ -36,6 +36,19 @@
     {% for item in content.body %}
       {% if item.text %}
       <p>{{ item.text }}</p>
+        {% if item.list %}
+        <div class="center">
+          <ul>
+            {% for list_item in item.list %}
+            <li>
+              {{ list_item }}
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endif %}
+      {% elsif item.image %}
+      <img src="{{ site.urlimg }}{{ item.image }}" class="center">
       {% endif %}
     {% endfor %}
   {% endif %}
@@ -47,13 +60,15 @@
         {{ item.text }}
       </p>
         {% if item.list %}
-        <ul>
-          {% for list_item in item.list %}
-          <li>
-            {{ list_item }}
-          </li>
-          {% endfor %}
-        </ul>
+        <div class="center">
+          <ul>
+            {% for list_item in item.list %}
+            <li>
+              {{ list_item }}
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
         {% endif %}
       {% elsif item.image %}
       <img src="{{ site.urlimg }}{{ item.image }}" class="center">
@@ -68,13 +83,15 @@
           {{ item.text }}
         </p>
           {% if item.list %}
-          <ul>
-            {% for list_item in item.list %}
-            <li>
-              {{ list_item }}
-            </li>
-            {% endfor %}
-          </ul>
+          <div class="center">
+            <ul>
+              {% for list_item in item.list %}
+              <li>
+                {{ list_item }}
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
           {% endif %}
         {% elsif item.image %}
         <img src="{{ site.urlimg }}{{ item.image }}" class="center">

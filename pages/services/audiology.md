@@ -51,7 +51,7 @@ contents:
       - name: Tinnitus
         body:
           - text: Tinnitus is the perception of sound by a person when no external sound source is present. It can be perceived/heard in one or both ears, or somewhere in the head (not localized to a specific ear). It is often described as a ringing or buzzing sound, but other descriptions include hissing, chirping, clicking, whistling, roaring, or crickets. It is estimated that 40-50 million Americans have some degree of tinnitus. Roughly 75% of those with tinnitus are not significantly bothered by it, while the other 25% are bothered enough to seek medical treatment.
-          - text: While the causes of tinnitus are often unknown, it does tend to occur with hearing loss, and with damage to the inner ear that may not have yet manifested as hearing loss. It frequently can occur as a result of loud noise exposure, such as a gun blast or a loud concert. Many medications and medical conditions have a possible side effect of tinnitus that can be either temporary or permanent. Additionally, there are several medical conditions whose symptoms include tinnitus&em;that is, tinnitus may be an early sign of a problem. If you suffer from tinnitus, it is important that you discuss it with your medical professional to rule out any possible treatable sources.
+          - text: While the causes of tinnitus are often unknown, it does tend to occur with hearing loss, and with damage to the inner ear that may not have yet manifested as hearing loss. It frequently can occur as a result of loud noise exposure, such as a gun blast or a loud concert. Many medications and medical conditions have a possible side effect of tinnitus that can be either temporary or permanent. Additionally, there are several medical conditions whose symptoms include tinnitus&mdash;that is, tinnitus may be an early sign of a problem. If you suffer from tinnitus, it is important that you discuss it with your medical professional to rule out any possible treatable sources.
           - text: While there is generally no <em>cure</em> for tinnitus, there are many treatments available. Please speak to your medical professional before trying any treatment. For more information on tinnitus, please visit the <a href="http://www.ata.org/">American Tinnitus Association</a>.
   - name: Hearing tests
     sections:
@@ -128,7 +128,7 @@ contents:
               - text: 'In addition:'
                 list:
                   - <strong>DO NOT</strong> eat for 3 hours before the examination is scheduled.
-                  - <strong>DO NOT</strong> use eye make-up&em;it will interfere with the test recording. You may apply it after the test is completed.
+                  - <strong>DO NOT</strong> use eye make-up&mdash;it will interfere with the test recording. You may apply it after the test is completed.
                   - If you wear contacts, you will be required to remove them prior to testing.
                   - You MUST arrange for someone to accompany you to the test to drive you home. Although you should leave the test feeling the same way as you entered, it is likely that you will become dizzy during the test.
               - text: Please contact your physician to determine if it is medically safe for you to be off of your medications for the 48-hour period.
