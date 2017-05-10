@@ -137,7 +137,52 @@ contents:
   - name: Surgical procedures for hearing loss
     sections:
       - name: Baha system
+        body:
+          - image: IMG_0150_cropped.jpg
+          - text: Capital Region Otolaryngology offers surgical implantation of the Baha System from Cochlear Americas and has done so since 2002. The Baha System from Cochlear Americas is a surgically implanted system designed to assist those with two distinct types of hearing loss. This system takes advantage of the natural processes of bone conduction to deliver speech and environmental sounds to the cochlea(s) in the inner ear. A titanium post and abutment are surgically placed in the skull bone behind the ear. Approximately 3 months after this outpatient surgical procedure, an external sound processor can be snapped to the abutment. This device detects sound through its microphone. The sound bypasses the outer and middle ear structures and travels to the better-functioning cochlea(s) to be recognized and interpreted in the areas of the brain responsible for processing sound. No part of this system is placed in the ear canal.
+          - text: Many people with conductive and/or mixed hearing losses as well as those with single-sided deafness are unable to benefit from traditional amplification in the form of hearing aids, but they can benefit from the Baha System. Causes of conductive or mixed hearing losses include chronic ear infections, otosclerosis and congenital anomalies or syndromes. For example, there may be an absence of the ear canal structure due to a congenital anomaly or an enlarged mastoid cavity and chronic ear drainage related to chronic middle ear infections. Causes of single-sided deafness, where one ear hears within normal limits while the other ear has no useable hearing, include sudden hearing loss, vestibular schwanomma removal and viruses. These individuals characteristically have not been able to derive benefit from a CROS hearing aid, an air conduction hearing aid designed for this type of hearing loss.
+          - text: Cochlear Americas, the sole manufacturer and customer support center for the Baha system, provides a thorough overview of the Baha system at <a href="http://http://www.cochlear.com/wps/wcm/connect/us/home/baha5">their website</a>.
+          - text: If you have additional questions about the Baha system or you wish to schedule an appointment to discuss this as a treatment option, please <a href="../../about/#contact">contact our office at these phone numbers</a> or at <a href="mailto:audiology@capitaloto.com">audiology@capitaloto.com</a>.
+      - name: Cochlear implants
+        body:
+          - image: image2_cropped.jpg
+          - text: "Cochlear implants are electronic devices that provide sound information to individuals with severe to profound hearing loss. A cochlear implant is a surgically implanted device for those with too much hearing loss to benefit from the use of hearing aids. The cochlear implant system consists of two parts: an internal portion and an external portion. The internal portion is surgically implanted under the skin, behind the ear. It consists of a receiver and an electrode array. The electrode array is inserted through the skull and middle ear into the cochlea (inner ear). The external portion of the system consist of a speech processor that is worn behind the ear and resembles a hearing aid, and a transmitting coil that attaches to the head by magnets near the speech processor. A cochlear implant bypasses the damaged parts of the auditory system and stimulates the auditory (hearing) nerve directly with electrical impulses."
         subsections:
-          - name: Cochlear implants
+          - name: How does it work?
+            body:
+              - text: The external speech processor contains microphones that pick up sounds. The processor then analyzes and converts these sounds into special codes. These codes are sent to the transmitting coil and through the skin to the implant. The internal implant receives these codes and coverts the signal to an electrical impulse. These electrical impulses are sent through the electrode array and stimulate the hearing nerves at specific locations. The auditory nerve picks up these signals and sends them to the brain where they are interpreted as sound.
+              - text: Cochlear implants are different from hearing aids. Hearing aids simply amplify sounds. A person with severe to profound hearing loss is not able to process this louder sound normally because it is still going through the damaged part of the inner ear. A cochlear implant does not make sounds louder. It bypasses the damaged parts of the inner ear and sends electrical signals directly to the auditory nerve.
+              - text: The cochlear implant and speech processor must be programmed by a trained audiologist. This is done several weeks after the surgery, and on an ongoing basis. During a programming session the electrodes are tested to make sure they are functioning properly and measurements are made as to how much electrical stimulation is needed on each electrode for the patient to perceive it as sound. Programs, called maps, are then developed, and multiple maps can be made for different types of listening situations. The amount of electrical stimulation that is required can change over time, requiring re-programming of the processor.
+          - name: Who is a candidate?
+            body:
+              - text: 'Current FDA guidelines state that candidates must meet the follow general criteria:'
+                list:
+                  - Infants (12 months to 24 months) with profound bilateral sensorineural hearing loss, and a lack of progress in the development of auditory skills
+                  - Children (25 months to 17 years and 11 months) with severe to profound bilateral sensorineural hearing loss, with poor speech understanding, and a lack of progress in the development of auditory skills
+                  - Adults (age 18+) with a moderate to profound bilateral sensorineural hearing loss, with poor speech understanding even with appropriately fit hearing aids
+                  - All patients must be in good general health and have no medical contraindications.
+              - text: These guidelines are general, and there are exceptions, as well as more specific criteria to determine candidacy. To determine if you are a candidate, please <a href="../../about/#contact">call to schedule an appointment</a>.
+          - name: Surgical procedure
+            body:
+              - text: The surgery is performed in the hospital under general anesthesia. The procedure takes approximately three hours. Patients are generally able to go home the same day as surgery (outpatient surgery), but do occasionally stay overnight.
+              - text: The surgical approach used to place a cochlear implant is similar to the surgery that is done for chronic ear infections.
+                list:
+                  - The skin incision is made behind the ear.
+                  - A special instrument is placed on the patient’s face to monitor the facial nerve. The mastoid bone (bone behind the ear) is then removed with a high speed surgical drill. An area of bone above the ear is also removed in order to make room for the internal receiver of the cochlear implant. An area called the facial recess is then uncovered to reveal an area of the inner ear called the round window.
+                  - A microscope drill is used to open this window and enter the cochlea. The electrode is then inserted through the facial recess into the round window and into the cochlea. The surgeon uses both visual and tactile information to ensure that the electrode is in proper position and that a full insertion of all electrodes has been achieved. The round window and facial recess are then packed with a small plug of muscle to insure that the electrode array stays in place.
+                  - At this point the skin incision is partially closed to allow the surgical and audiologic team to test the implant. In the unlikely event that a problem with the implant or its placement is detected, it can be remedied.
+                  - After the incision is closed, a sterile dressing is placed in the incision, and the patient is taken to recovery.
+              - text: Initial healing takes several days, after which the patient is allowed to get the incision wet. Full healing takes several weeks to months. Initial programming of the implant takes place 4-6 weeks after surgery.
+          - name: External links
+            body:
+              - text: "For more information on cochlear implants, please visit the manufacturers’ websites:"
+                list:
+                  - <a href="http://www.cochlear.com/wps/wcm/connect/intl/home">Cochlear Corporation</a>
+                  - <a href="https://advancedbionics.com/">Advanced Bionics Corporation</a>
+                  - <a href="http://www.medel.com/us/">Med-El Corporation</a>
   - name: Additional audiology services
+    body:
+      - text: We offer both custom and non-custom swim plugs, as well as other products to reduce water in the ear when swimming and bathing.
+      - text: We also offer both custom and non-custom hearing protection. These are available for general noise protection as well as for musicians and those that enjoy loud music venues but wish to protect their hearing.
+      - text: Please <a href="../../about/#contact">contact our office</a> and ask to speak with an audiologist for more information on these products.
 ---

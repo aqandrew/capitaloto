@@ -15,7 +15,7 @@
                 <ul>
                   {% for subsection in section.subsections %}
                   <li>
-                    <a href="{{ subsection.name }}">{{ subsection.name }}</a>
+                    <a href="#{{ subsection.name | slugify }}">{{ subsection.name }}</a>
                   </li>
                   {% endfor %}
                 </ul>
@@ -32,7 +32,13 @@
 
 {% for content in include.contents %}
 <h2 id="{{ content.name | slugify }}" class="t20">{{ content.name }}</h2>
-
+  {% if content.body %}
+    {% for item in content.body %}
+      {% if item.text %}
+      <p>{{ item.text }}</p>
+      {% endif %}
+    {% endfor %}
+  {% endif %}
   {% for section in content.sections %}
   <h3 id="{{ section.name | slugify }}">{{ section.name }}</h3>
     {% for item in section.body %}
@@ -66,15 +72,6 @@
             {% for list_item in item.list %}
             <li>
               {{ list_item }}
-              <!-- {% if list_item.sublist %}
-              <ul>
-                {% for sub_item in list_item.sublist %}
-                <li>
-                  {{ sub_item }}
-                </li>
-                {% endfor %}
-              </ul> -->
-              <!-- {% endif %} -->
             </li>
             {% endfor %}
           </ul>
