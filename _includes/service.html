@@ -1,0 +1,112 @@
+<table>
+  <tr>
+    <td>
+      <h4 class="nomargin-top">Contents</h4>
+
+      <ul class="table-of-contents">
+        {% for content in include.contents %}
+        <li>
+          <a href="#{{ content.name | slugify }}">{{ content.name }}</a>
+          <ul>
+            {% for section in content.sections %}
+            <li>
+              <a href="#{{ section.name | slugify }}">{{ section.name }}</a>
+              {% if content.subsections %}
+                <ul>
+                  {% for subsection in content.subsections %}
+                  <li>
+                    <a href="{{ subsection.name }}">{{ subsection.name }}</a>
+                  </li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+            </li>
+            {% endfor %}
+          </ul>
+        </li>
+        {% endfor %}
+      </ul>
+    </td>
+  </tr>
+</table>
+
+{% for content in include.contents %}
+<h2 id="{{ content.name | slugify }}" class="t20">{{ content.name }}</h2>
+
+  {% for section in content.sections %}
+  <h3 id="{{ section.name | slugify }}">{{ section.name }}</h3>
+    {% for item in section.body %}
+      {% if item.text %}
+      <p>
+        {{ item.text }}
+      </p>
+        {% if item.list %}
+        <ul>
+          {% for list_item in item.list %}
+          <li>
+            {{ list_item }}
+          </li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+      {% elsif item.image %}
+      <img src="{{ site.urlimg }}{{ item.image }}" class="center">
+      {% endif %}
+    {% endfor %}
+
+    {% for subsection in section.subsections %}
+    <h4 id="{{ subsection.name | slugify}}">{{ subsection.name }}</h4>
+      {% for item in subsection.body %}
+        {% if item.text %}
+        ONE
+        <p>
+          {{ item.text }}
+        </p>
+          {% if item.list %}
+          <ul>
+            {% for list_item in item.list %}
+            <li>
+              {{ list_item }}
+            </li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+        {% elsif item.image %}
+        TWO
+        <img src="{{ site.urlimg }}{{ item.image }}" class="center">
+        {% elsif item.table %}
+        <table>
+          {% if item.table.headers %}
+          <tr>
+            {% for header in item.table.headers %}
+            <th>
+              {{ header }}
+            </th>
+            {% endfor %}
+          </tr>
+          {% endif %}
+          {% for row in item.table.rows %}
+          <tr>
+            {% for cell in row.cells %}
+            <td>
+              {% if cell.text %}
+              {{ cell.text }}
+              {% elsif cell.list %}
+              <ul>
+                {% for list_item in cell.list %}
+                  <li>
+                    {{ list_item }}
+                  </li>
+                {% endfor %}
+              </ul>
+              {% endif %}
+            </td>
+            {% endfor %}
+          </tr>
+          {% endfor %}
+        </table>
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+  {% endfor %}
+{% endfor %}

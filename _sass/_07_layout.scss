@@ -385,7 +385,7 @@ body.video cite { color: #fff; }
 /* offset-x | offset-y | blur-radius | spread-radius | color */
 $article-shadow: 0px 1px 4px 2px rgba(0, 0, 0, 0.2);
 
-.row:nth-child(3) > div:not(.footer-address), #posts {
+.row:nth-child(3) > div:not(.footer-address), #posts, .breadcrumbs + div > div:first-child {
   // parent-div of article, announcements on frontpage
   background-color: $article-color;
   box-shadow: $article-shadow;
@@ -408,6 +408,20 @@ $article-shadow: 0px 1px 4px 2px rgba(0, 0, 0, 0.2);
 
     li {
       text-align: left;
+    }
+  }
+}
+
+.table-of-contents {
+  column-count: 2;
+  list-style-position: inside;
+
+  & > li {
+    & > a {
+      margin-left: -20px;
+    }
+    & > ul {
+      padding-left: 20px;
     }
   }
 }
