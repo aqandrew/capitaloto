@@ -41,8 +41,16 @@ Procedures such as laryngoscopy or endoscopy performed during your examination m
 
 If you have coverage through the following insurances, they typically charge it to your deductible. The deductible amounts vary, and you should contact your insurance with any questions regarding the amount that will be charged.
 
-{% for insurance in site.data.insurance %}
-  {% if insurance.diagnostic_deductible %}- {{ insurance.name }}{% endif %}
-{% endfor %}
+<div class="center">
+  <ul>
+    {% for insurance in site.data.insurance %}
+      {% if insurance.diagnostic_deductible %}
+      <li>
+        {{ insurance.name }}
+      </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>
 
 There may be other insurances that apply a deductible, as plans can change from month to month.

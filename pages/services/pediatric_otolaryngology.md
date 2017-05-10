@@ -31,8 +31,23 @@ contents:
           - Trouble swallowing
       - text: Your child may be referred to us for evaluation to determine if removal of the tonsils, adenoids, or both may improve their health. Removing the tonsils and adenoid is a safe procedure performed as an outpatient using the latest technology to reduce pain and hasten recovery. You can expect your child to be on a soft diet postoperatively and be out of school for a week with avoidance of vigorous activity for up to 2 weeks.
   - name: Pediatric Neck Masses
+    body:
+      - text: A mass or lump in you child’s neck/face may be frightening at first, but the majority are benign or infectious and easily cured. A rapid swelling with pain and redness following an upper respiratory infection is usually a lymph node (swollen gland) and typically responds to antibiotics if treated early. Other commonly encountered masses include benign cysts or solid lesions. You may be referred to us in order to determine the cause of the swelling so appropriate management can be provided.
   - name: Ankyloglossia (Tongue Tie)
+    body:
+      - text: This condition occurs when the frenulum, a thin membrane of tissue which attaches from the floor of the mouth to the tongue, connects too far forward&mdash;preventing normal tongue mobility. This can cause an infant to have difficulty nursing or bottle feeding, slowing normal weight gain. In addition, older children with tongue tie may have speech difficulties. A simple office or outpatient procedure to release the frenulum provides immediate correction of the problem.
   - name: Chronic Sinusitis/Allergic Rhinitis
+    body:
+      - text: 'Unlike adults who suffer from headaches, facial pressure, fatigue, and nasal congestion, children may present with persistent cough and nasal discharge. Your child may be referred for evaluation to determine the cause and discuss treatment options. Sinusitis commonly occurs because of the following:'
+        list:
+          - Uncontrolled nasal allergies
+          - Enlarged adenoids
+          - Anatomic variations, such as a septal deviation
+          - Cystic fibrosis
+          - Immunologic disorders
+      - text: The majority of sinus infections can be treated or eliminated by management with medications with occasional surgery being reserved for those with persistent, significant or recurring symptoms.
   - name: Additional Information
+    body:
+      - text: To learn more about pediatric otolaryngology, please visit <a href="http://www.entnet.org/content/patient-health">our academy website</a>.
 ---
 TODO
