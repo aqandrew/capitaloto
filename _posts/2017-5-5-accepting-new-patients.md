@@ -3,13 +3,9 @@ layout: page
 #
 # Content
 #
-subheadline: ""
+subheadline: "Welcome"
 title: "Accepting New Adult & Pediatric Patients in All Locations"
 teaser: "Welcome to Capital Region Otolaryngology! Thank you for visiting our new website."
-categories:
-  -
-tags:
-  -
 ---
 We are accepting new adult and pediatric patients in our Albany, Troy, and Clifton Park offices. We invite you to learn more about our practice and our providers on this site. Please feel free to [call our offices][1] with questions or to schedule an appointment.
 
