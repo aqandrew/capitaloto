@@ -414,7 +414,11 @@ $article-shadow: 0px 1px 4px 2px rgba(0, 0, 0, 0.2);
 }
 
 .table-of-contents {
-  column-count: 2;
+  // Don't use multiple columns on phones
+  @media #{$medium-up} {
+    column-count: 2;
+  }
+
   list-style-position: inside;
 
   & > li {
