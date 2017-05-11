@@ -1,6 +1,6 @@
 medical_providers:
   - name: Michael A. DeVito, M.D.
-    image: /images/humans/michael_devito_2.jpg
+    image: humans/michael_devito_2.jpg
     practicing_since: Practicing medicine since 1984
     specialty: General Otolaryngology
     positions:
@@ -43,7 +43,7 @@ medical_providers:
           - St. Mary’s Hospital
           - Saratoga Hospital
   - name: John D. Kopp, M.D.
-    image: /images/humans/john_kopp.jpg
+    image: humans/john_kopp.jpg
     practicing_since: Practicing medicine since 1983
     specialty: General Otolaryngology, Head and Neck Surgery
     positions:
@@ -85,7 +85,7 @@ medical_providers:
           - Samaritan Hospital
           - St. Mary’s Hospital
   - name: John J. Cevera, M.D.
-    image: /images/humans/john_cevera.jpg
+    image: humans/john_cevera.jpg
     practicing_since: Practicing medicine since 1997
     specialty: General Otolaryngology
     positions:
@@ -124,7 +124,7 @@ medical_providers:
           - Samaritan Hospital
           - St. Mary’s Hospital
   - name: Michelle J. Yoon, M.D.
-    image: /images/humans/michelle_yoon_2_cropped.jpg
+    image: humans/michelle_yoon_2_cropped.jpg
     practicing_since: Practicing medicine since 2002
     specialty: General Otolaryngology
     qualifications:
@@ -160,7 +160,7 @@ medical_providers:
           - Samaritan Hospital
           - St. Mary’s Hospital
   - name: Lyon M. Greenberg, M.D.
-    image: /images/humans/lyon_greenberg.jpg
+    image: humans/lyon_greenberg.jpg
     practicing_since: Practicing medicine since 1958
     specialty: Pediatric Otolaryngology
     positions:
@@ -199,7 +199,7 @@ medical_providers:
           - AMCH South Clinical Campus
           - St. Peter’s Hospital
   - name: Mark J. Levenson, M.D.
-    image: /images/humans/mark_levenson.jpg
+    image: humans/mark_levenson.jpg
     practicing_since: Practicing medicine since 1972
     specialty: Otology and Neurotology
     qualifications:
@@ -236,7 +236,7 @@ medical_providers:
           - AMCH South Clinical Campus
           - Saratoga Hospital
   - name: Jennifer Sulkow, RPAC, MPAS
-    image: /images/humans/jennifer_sulkow_1.jpg
+    image: humans/jennifer_sulkow_1.jpg
     practicing_since: Practicing medicine since 1980
     specialty: Otorhinolaryngology (ENT)
     qualifications:
@@ -258,7 +258,7 @@ medical_providers:
 
 audiologists:
   - name: Julie C. Hanson, Au.D., CCC-A
-    image: /images/humans/julie_hanson.jpg
+    image: humans/julie_hanson.jpg
     practicing_since: Practicing audiology since 1997
     qualifications:
       - name: College/Degree
@@ -288,7 +288,7 @@ audiologists:
           - Osseointegrated Implants
           - Cochlear Implants
   - name: Lauren M. Marino, Au.D., CCC-A
-    image: /images/humans/lauren_marino.jpg
+    image: humans/lauren_marino.jpg
     practicing_since: Practicing audiology since 2004
     qualifications:
       - name: College/Degree
@@ -317,7 +317,7 @@ audiologists:
           - Videonystagmography (VNG) Testing
           - Auditory Brainstem Response (ABR) Testing
   - name: Emily Manley, Au.D., CCC-A
-    image: /images/humans/emily_manley_cropped.jpg
+    image: humans/emily_manley_cropped.jpg
     practicing_since: Practicing audiology since 2011
     qualifications:
       - name: College/Degree
@@ -345,7 +345,7 @@ audiologists:
           - Videonystagmography (VNG) Testing
           - Auditory Brainstem Response (ABR) Testing
   - name: Kimberly Ringie Au.D., CCC-A
-    image: /images/humans/kim_ringie_cropped.jpg
+    image: humans/kim_ringie_cropped.jpg
     practicing_since: Practicing audiology since 2016
     qualifications:
       - name: College/Degree
@@ -372,7 +372,7 @@ audiologists:
           - Videonystagmography (VNG) Testing
           - Auditory Brainstem Response (ABR) Testing
   - name: Susan A. Rest, M.Ed., CCC-A
-    image: /images/humans/susan_rest.jpg
+    image: humans/susan_rest.jpg
     practicing_since: Practicing audiology since 1987
     qualifications:
       - name: College/Degree
