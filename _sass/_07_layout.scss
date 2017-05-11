@@ -53,6 +53,11 @@ body.video cite { color: #fff; }
     [class^='icon-']:before, [class*=' icon-']:before {
         margin-right: rem-calc(8);
     }
+
+    // We're using our own image instead of an icon
+    h1 img {
+      height: 48px;
+    }
 }
 
 
