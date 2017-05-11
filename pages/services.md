@@ -11,19 +11,19 @@ Capital Region Otolaryngology specializes in all aspects of medicine for the hea
 <div class="center">
   <ul>
     <li>
-      <a href="{{ page.permalink }}audiology/">Audiology</a>
+      <a href="{{ site.url }}{{ site.baseurl }}{{ page.permalink }}audiology/">Audiology</a>
     </li>
     <li>
-      <a href="{{ page.permalink }}otology/">Otology/Ear Diseases</a>
+      <a href="{{ site.url }}{{ site.baseurl }}{{ page.permalink }}otology/">Otology/Ear Diseases</a>
     </li>
     <li>
-      <a href="{{ page.permalink }}pediatric_otolaryngology/">Pediatric Otolaryngology</a>
+      <a href="{{ site.url }}{{ site.baseurl }}{{ page.permalink }}pediatric_otolaryngology/">Pediatric Otolaryngology</a>
     </li>
     <li>
-      <a href="{{ page.permalink }}sinus/">Sinus</a>
+      <a href="{{ site.url }}{{ site.baseurl }}{{ page.permalink }}sinus/">Sinus</a>
     </li>
     <li>
-      <a href="{{ page.permalink }}head_neck_surgery/">Head & Neck Surgery</a>
+      <a href="{{ site.url }}{{ site.baseurl }}{{ page.permalink }}head_neck_surgery/">Head & Neck Surgery</a>
     </li>
   </ul>
 </div>
