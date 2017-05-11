@@ -79,7 +79,7 @@ Click each marker on the map below for directions to one of our locations.
     });
   }
 
-  function initMap() {
+  window.initMap = function() {
     let map = new google.maps.Map(document.getElementById('capitaloto-map'), {
       fullscreenControl: true
     });
