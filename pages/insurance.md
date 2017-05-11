@@ -3,7 +3,7 @@ layout: page
 title: Insurance
 permalink: /insurance/
 ---
-Most plans require co-payments; some plans require referrals and/or have high deductibles. If you are unsure about the requirements of your plan, please contact your insurance carrier prior to your appointment.
+Most insurance plans require co-payments; some plans require referrals and/or have high deductibles. If you are unsure about the requirements of your plan, please contact your insurance carrier prior to your appointment.
 
 As a reminder, please remember to bring your insurance card, any referrals, and a list of current medications you are taking to your appointment. We collect co-payments at the time of your visit.
 
