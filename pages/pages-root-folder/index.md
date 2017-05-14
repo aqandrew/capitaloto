@@ -29,7 +29,7 @@ widget3:
   title: "Locations & Hours"
   url: '/locations'
   image: office_albany_2.jpg
-  text: 'We have offices in Albany, Troy, and Clifton Park dedicated to serving patients throughout and outside the Capital Region with the utmost care and convenience, Monday through Friday from 8:00 am to 4:15 pm. Click below for directions.'
+  text: 'We have offices in Albany, Troy, and Clifton Park dedicated to serving patients throughout and outside the Capital Region with the utmost care and convenience, Monday through Friday from 9:00 am to 4:15 pm. Click below for directions.'
 #
 # Use the call for action to show a button on the frontpage
 #
