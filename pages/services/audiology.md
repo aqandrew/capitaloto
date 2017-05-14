@@ -185,4 +185,7 @@ contents:
       - text: We offer both custom and non-custom swim plugs, as well as other products to reduce water in the ear when swimming and bathing.
       - text: We also offer both custom and non-custom hearing protection. These are available for general noise protection as well as for musicians and those that enjoy loud music venues but wish to protect their hearing.
       - text: Please <a href="../../about/#contact">contact our office</a> and ask to speak with an audiologist for more information on these products.
+  - name: Additional information
+    body:
+      - text: To learn more about audiology, please visit <a href="http://www.entnet.org/content/patient-health">our academy website</a>.
 ---

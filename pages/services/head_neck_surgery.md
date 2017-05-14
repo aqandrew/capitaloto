@@ -47,4 +47,4 @@ We have been performing head and neck surgery for the surrounding Capital Region
 
 We take pride in our efforts to help the patient who will require this type of surgery. We understand that having a surgical procedure can be a stressful time for the patient and their family. Our courteous staff assists in planning the procedures and our doctors help the patient and their family with careful explanations of the surgical procedure, the postoperative care involved and aid with planning any further therapy that may be required. Our doctors are continually updated on new techniques using the latest technology available to ensure good results. Some recent advances include laser surgery, endoscopic surgery, radio frequency surgery and coblation surgery.
 
-[Read more from the American Academy of Otolaryngology.](http://www.entnet.org/healthinformation/headandnecksurgery.cfm)
+To learn more about head and neck surgery, please visit [our academy website](http://www.entnet.org/content/patient-health).

@@ -46,7 +46,6 @@ contents:
     body:
       - text: 'Learn more about symptoms and treatment of sinusitis at these links:'
         list:
-          - <a href="http://www.balloonsinuplasty.com/sinusitis-facts/sinusitis-overview/">Sinusitis Overview</a>
-          - <a href="http://www.webmd.com/a-to-z-guides/sinus-infection">Sinusitis and Sinus Infection</a>
+          - <a href="http://www.entnet.org/content/patient-health">Academy website</a>
           - <a href="http://emedicine.medscape.com/article/863420-overview">Functional Endoscopic Sinus Surgery</a>
 ---
