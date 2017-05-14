@@ -41,7 +41,7 @@ contents:
         subsections:
           - name: How is chronic sinusitis treated?
             body:
-              - text: TODO
+              - text: In addition to antibiotics, tests such as a CT scan or MRI of the sinuses may be ordered by the physician to diagnose and treat chronic sinusitis. In some cases, surgery to clean and drain the sinuses may be needed. Surgical repair of a deviated septum or nasal obstruction may prevent chronic sinusitis from relapsing.
   - name: Additional information
     body:
       - text: 'Learn more about symptoms and treatment of sinusitis at these links:'
