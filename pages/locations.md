@@ -26,4 +26,4 @@ Location | Address | Phone | Fax
 
 ### Hours
 
-Each of our offices is open {{ site.hours }}. Depending on your physician, you may be able to schedule an appointment before or after normal hours.
+Each of our offices is open {{ site.hours }}. Depending on your physician, you may be able to schedule an appointment before normal hours.
