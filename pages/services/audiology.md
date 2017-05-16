@@ -73,7 +73,6 @@ contents:
               - text: An additional test may be requested by your physician, particularly if results are questionable, or if the child is not able to cooperate for traditional testing. This test is referred to by several names, including ABR (Auditory Brainstem Response), BSER (Brainstem Evoked Response), and BAER (Brainstem Auditory Evoked Response). This is a non-invasive test, but for some children may require sedation.
       - name: Who will test my hearing?
         body:
-          - image: humans/ent236.jpg
           - text: Your hearing will be evaluated by a state licensed and nationally certified (by the American Speech-Language-Hearing Association) audiologist. An audiologist is a professional who evaluates, diagnoses, and provides prevention and rehabilitation to individuals with hearing loss and balance problems. Audiologists must have received a master’s and/or doctoral degree from an accredited university graduate program. In addition, they must complete a fellowship year of supervised clinical experience and must be licensed by the state in which they work. In order to maintain both New York State licensure and national certification, audiologists must complete annual, ongoing continuing education.
           - text: Please view our <a href="../../staff/#audiologists">Staff page</a> for detailed information.
       - name: Auditory brainstem response (ABR)

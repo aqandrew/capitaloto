@@ -257,36 +257,6 @@ medical_providers:
           - New York State Society of Physician Assistants
 
 audiologists:
-  - name: Julie C. Hanson, Au.D., CCC-A
-    image: humans/julie_hanson.jpg
-    practicing_since: Practicing audiology since 1997
-    qualifications:
-      - name: College/Degree
-        value:
-          - University of Massachusetts at Amherst, Bachelor of Science in Communication Disorders
-          - Gallaudet University, Master of Science in Audiology
-          - A.T. Still University, Arizona School of Health Sciences, Doctor of Audiology
-      - name: Post-Graduate Training
-        training:
-          - name: Fellowship
-            values:
-              - "University of Vermont, E.M. Luse Center for Communication: Speech, Language, and Hearing"
-      - name: License and Certification
-        value:
-          - New York State License, Audiology
-          - American Speech-Language-Hearing Association, Certificate of Clinical Competence in Audiology
-      - name: Memberships
-        value:
-          - American Academy of Audiology (F-AAA)
-          - American Speech-Language-Hearing Association (ASHA)
-          - New York State Speech-Language-Hearing Association (NYSSLHA)
-          - Capital Area Speech-Language-Hearing Association (CASHA)
-      - name: Specialties
-        value:
-          - Pediatric and Adult Diagnostics
-          - Auditory and Brainstem Response (ABR) Testing
-          - Osseointegrated Implants
-          - Cochlear Implants
   - name: Lauren M. Marino, Au.D., CCC-A
     image: humans/lauren_marino.jpg
     practicing_since: Practicing audiology since 2004
