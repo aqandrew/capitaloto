@@ -62,7 +62,7 @@ function CenterControl(controlDiv, map) {
   });
 }
 
-initMap = function() {
+window.initMap = function() {
   let map = new google.maps.Map(document.getElementById('capitaloto-map'), {
     fullscreenControl: true
   });
