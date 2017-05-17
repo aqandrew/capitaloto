@@ -15,7 +15,7 @@ Click each marker on the map below for directions to one of our locations.
 
 <div id="capitaloto-map" class="b15"></div>
 <script async defer
-  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAfIcDESp0aiadHZ5zoSJTox0TCHyudxmk&callback=initMap">
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAfIcDESp0aiadHZ5zoSJTox0TCHyudxmk&callback=window.initMap">
 </script>
 <script src="{{ site.url }}{{ site.baseurl }}/assets/js/capitalotoMap.js"></script>
 
