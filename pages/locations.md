@@ -14,10 +14,10 @@ We have 3 offices dedicated to serving patients throughout and outside the Capit
 Click each marker on the map below for directions to one of our locations.
 
 <div id="capitaloto-map" class="b15"></div>
+<script async defer src="{{ site.url }}{{ site.baseurl }}/assets/js/capitalotoMap.js"></script>
 <script async defer
   src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAfIcDESp0aiadHZ5zoSJTox0TCHyudxmk&callback=window.initMap">
 </script>
-<script src="{{ site.url }}{{ site.baseurl }}/assets/js/capitalotoMap.js"></script>
 
 Location | Address | Phone | Fax
 --- | --- | --- | ---
