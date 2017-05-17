@@ -30,10 +30,6 @@
   url: "/blog/"
   side: left
 
-- title: "Search"
-  url: "/search/"
-  side: right
-
 - title: "Contact"
   url: "/about/#contact"
   side: right
