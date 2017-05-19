@@ -82,7 +82,8 @@ body.video cite { color: #fff; }
     background-color: $primary-color;
 }
 #masthead-no-image-header {
-    background: linear-gradient($primary-color, $masthead-color);
+    // background-image: linear-gradient($primary-color, $masthead-color);
+    @include gradient-vertical($primary-color, $masthead-color);
 }
 #masthead-with-text {
     text-align: center;
