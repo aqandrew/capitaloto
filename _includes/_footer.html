@@ -11,29 +11,29 @@
           <div class="medium-6 large-6 columns">
             <h5 class="shadow-black">Hours & Locations <a href="{{ site.url }}{{ site.baseurl }}/locations/" class="footer-heading-link">{{ site.data.language.more }}</a></h5>
             <p class="shadow-black nomargin-bottom">
-              {{ site.hours }}
+              {{ site.hours }}<br/>
             </p>
-            <div class="row">
-              {% for location in site.data.locations %}<div class="medium-4 columns footer-address"><p class="shadow-black">{{ location.address }}</p></div>{% endfor %}
+            <div class="row" id="addresses">
+              {% for location in site.data.locations %}<div class="medium-4 columns footer-address"><p class="shadow-black">{{ location.address }}<br/><a href="tel:{{ location.phone }}">{{ location.phone }}</a></p></div>{% endfor %}
             </div>
           </div><!-- /.large-6.columns -->
 
 
           <div class="small-6 medium-3 large-3 columns">
-            {% for service_item in site.data.services %}
+            <!-- {% for service_item in site.data.services %}
               {% if forloop.first == true %}
                 <h5 class="shadow-black">{{ service_item.menu_name }}</h5>
               {% endif %}
-            {% endfor %}
+            {% endfor %} -->
 
-              <ul class="no-bullet shadow-black">
+              <!-- <ul class="no-bullet shadow-black">
               {% for service_item in site.data.services %}
                 {% if service_item.url contains 'http' %}{% assign domain = '' %}{% else %}{% capture domain %}{{ site.url }}{{ site.baseurl }}{% endcapture %}{% endif %}
                   <li {% if service_item.class %}class="{{ service_item.class }}" {% endif %}>
                     <a href="{{ domain }}{{ service_item.url }}" {% if service_item.url contains 'http' %}target="_blank" {% endif %} title="{{ service_item.title }}">{{ service_item.name }}</a>
                   </li>
               {% endfor %}
-              </ul>
+            </ul> -->
           </div><!-- /.large-4.columns -->
 
 

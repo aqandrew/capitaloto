@@ -17,6 +17,8 @@ Click each marker on the map below for directions to one of our locations.
 
 <div id="capitaloto-map" class="b15"></div>
 
+### Contact
+
 Location | Image | Address | Phone | Fax
 --- | --- | --- | --- | ---
 {% for location in site.data.locations  %}**{{ location.name }}** | [![{{ location.name }}]({{ site.urlimg }}{{ location.image }})]({{ location.url }}) | {{ location.address }} | [{{ location.phone }}](tel:{{ location.phone }}) | [{{ location.fax }}](tel:{{ location.fax }})
