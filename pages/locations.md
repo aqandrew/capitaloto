@@ -13,11 +13,13 @@ permalink: /locations/
 We have 3 offices dedicated to serving patients throughout and outside the Capital Region with the utmost care and convenience.
 Click each marker on the map below for directions to one of our locations.
 
+**Note**: The interactive map may not display in Internet Explorer. You can also click the images in the table below for directions.
+
 <div id="capitaloto-map" class="b15"></div>
 
-Location | Address | Phone | Fax
---- | --- | --- | ---
-{% for location in site.data.locations  %}**{{ location.name }}**<br/>![{{ location.name }}]({{ site.urlimg }}{{ location.image }}) | {{ location.address }} | [{{ location.phone }}](tel:{{ location.phone }}) | [{{ location.fax }}](tel:{{ location.fax }})
+Location | Image | Address | Phone | Fax
+--- | --- | --- | --- | ---
+{% for location in site.data.locations  %}**{{ location.name }}** | [![{{ location.name }}]({{ site.urlimg }}{{ location.image }})]({{ location.url }}) | {{ location.address }} | [{{ location.phone }}](tel:{{ location.phone }}) | [{{ location.fax }}](tel:{{ location.fax }})
 {% endfor %}
 
 ### Hours
