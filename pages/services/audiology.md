@@ -141,7 +141,7 @@ contents:
           - text: Capital Region Otolaryngology offers surgical implantation of the Baha System from Cochlear Americas and has done so since 2002. The Baha System from Cochlear Americas is a surgically implanted system designed to assist those with two distinct types of hearing loss. This system takes advantage of the natural processes of bone conduction to deliver speech and environmental sounds to the cochlea(s) in the inner ear. A titanium post and abutment are surgically placed in the skull bone behind the ear. Approximately 3 months after this outpatient surgical procedure, an external sound processor can be snapped to the abutment. This device detects sound through its microphone. The sound bypasses the outer and middle ear structures and travels to the better-functioning cochlea(s) to be recognized and interpreted in the areas of the brain responsible for processing sound. No part of this system is placed in the ear canal.
           - text: Many people with conductive and/or mixed hearing losses as well as those with single-sided deafness are unable to benefit from traditional amplification in the form of hearing aids, but they can benefit from the Baha System. Causes of conductive or mixed hearing losses include chronic ear infections, otosclerosis and congenital anomalies or syndromes. For example, there may be an absence of the ear canal structure due to a congenital anomaly or an enlarged mastoid cavity and chronic ear drainage related to chronic middle ear infections. Causes of single-sided deafness, where one ear hears within normal limits while the other ear has no useable hearing, include sudden hearing loss, vestibular schwanomma removal and viruses. These individuals characteristically have not been able to derive benefit from a CROS hearing aid, an air conduction hearing aid designed for this type of hearing loss.
           - text: Cochlear Americas, the sole manufacturer and customer support center for the Baha system, provides a thorough overview of the Baha system at <a href="http://www.cochlear.com/wps/wcm/connect/us/home/baha5">their website</a>.
-          - text: If you have additional questions about the Baha system or you wish to schedule an appointment to discuss this as a treatment option, please <a href="../../about/#contact">contact our office at these phone numbers</a> or at <a href="mailto:audiology@capitaloto.com">audiology@capitaloto.com</a>.
+          - text: If you have additional questions about the Baha system or you wish to schedule an appointment to discuss this as a treatment option, please <a href="../../locations/#contact">contact our office at these phone numbers</a> or at <a href="mailto:audiology@capitaloto.com">audiology@capitaloto.com</a>.
       - name: Cochlear implants
         body:
           - image: image2_cropped.jpg
@@ -160,7 +160,7 @@ contents:
                   - Children (25 months to 17 years and 11 months) with severe to profound bilateral sensorineural hearing loss, with poor speech understanding, and a lack of progress in the development of auditory skills
                   - Adults (age 18+) with a moderate to profound bilateral sensorineural hearing loss, with poor speech understanding even with appropriately fit hearing aids
                   - All patients must be in good general health and have no medical contraindications.
-              - text: These guidelines are general, and there are exceptions, as well as more specific criteria to determine candidacy. To determine if you are a candidate, please <a href="../../about/#contact">call to schedule an appointment</a>.
+              - text: These guidelines are general, and there are exceptions, as well as more specific criteria to determine candidacy. To determine if you are a candidate, please <a href="../../locations/#contact">call to schedule an appointment</a>.
           - name: Surgical procedure
             body:
               - text: The surgery is performed in the hospital under general anesthesia. The procedure takes approximately three hours. Patients are generally able to go home the same day as surgery (outpatient surgery), but do occasionally stay overnight.
@@ -183,7 +183,7 @@ contents:
     body:
       - text: We offer both custom and non-custom swim plugs, as well as other products to reduce water in the ear when swimming and bathing.
       - text: We also offer both custom and non-custom hearing protection. These are available for general noise protection as well as for musicians and those that enjoy loud music venues but wish to protect their hearing.
-      - text: Please <a href="../../about/#contact">contact our office</a> and ask to speak with an audiologist for more information on these products.
+      - text: Please <a href="../../locations/#contact">contact our office</a> and ask to speak with an audiologist for more information on these products.
   - name: Additional information
     body:
       - text: To learn more about audiology, please visit <a href="http://www.entnet.org/content/patient-health">our academy website</a>.

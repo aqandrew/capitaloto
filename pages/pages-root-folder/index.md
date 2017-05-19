@@ -42,7 +42,7 @@ widget3:
 #
 actionbuttons:
   - callforaction1:
-    url: /about#contact
+    url: /locations/#contact
     text: Make an appointment
     style: primary
   - callforaction2:

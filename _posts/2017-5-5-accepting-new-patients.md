@@ -11,4 +11,4 @@ We are accepting new adult and pediatric patients in our Albany, Troy, and Clift
 
 This website is for patient information purposes only, and the content is subject to change. It is not intended to provide medical advice or a diagnosis.
 
-[1]: {{ site.url }}/about/#contact
+[1]: {{ site.url }}{{ site.baseurl }}/locations/#contact
