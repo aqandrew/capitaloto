@@ -89,3 +89,10 @@
 	{% unless page.style == NULL %}
 	<style type="text/css">{{ page.style }}</style>
 	{% endunless %}
+
+	{% if page.title == 'Locations & Directions' %}
+	<script src="{{ site.url }}{{ site.baseurl }}/assets/js/capitalotoMap.js"></script>
+	<script async defer
+	  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAfIcDESp0aiadHZ5zoSJTox0TCHyudxmk&callback=initMap">
+	</script>
+	{% endif %}
